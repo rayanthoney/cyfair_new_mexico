@@ -1,16 +1,59 @@
-# React + Vite
+# EliteMax
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern and stylish web application built with React, Vite, and Tailwind CSS. It features animations using GSAP.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   [React](https.://reactjs.org/)
+*   [Vite](https://vitejs.dev/)
+*   [Tailwind CSS](https://tailwindcss.com/)
+*   [GSAP](https://greensock.com/gsap/)
+*   [ESLint](https://eslint.org/)
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To get a local copy up and running, follow these simple steps.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   [Node.js](https://nodejs.org/en/) (which comes with npm)
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/your_username_/Project-Name.git
+    ```
+2.  Install NPM packages
+    ```sh
+    npm install
+    ```
+
+### Development
+
+To run the app in the development mode, run the following command:
+
+```sh
+npm run dev
+```
+
+This will open the app in your browser at [http://localhost:5173](http://localhost:5173).
+
+### Build
+
+To build the app for production, run the following command:
+
+```sh
+npm run build
+```
+
+This will create a `dist` folder in the project root, which contains the production-ready files.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+*   `npm run dev`: Runs the app in the development mode.
+*   `npm run build`: Builds the app for production to the `dist` folder.
+*   `npm run lint`: Lints the code using ESLint.
+*   `npm run preview`: Serves the production build locally for previewing.

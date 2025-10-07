@@ -4,6 +4,10 @@ const navLinks = [
 	title: "Home",
  },
  {
+	id: "upcoming",
+	title: "Upcoming Events",
+ },
+ {
 	id: "about",
 	title: "About Us",
  },
@@ -19,55 +23,55 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
+	name: "Krystal Manny Classic",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 04-06",
  },
  {
-	name: "Caten Malbee",
+	name: "Halloween Hoopfest",
 	country: "AU",
 	detail: "Battle",
-	price: "$49",
+	price: "Oct 17-19",
  },
  {
-	name: "Rhino Pale Ale",
+	name: "Hoop Dreams Classic",
 	country: "CA",
 	detail: "750 ml",
-	price: "$20",
+	price: "Oct 24-26",
  },
  {
-	name: "Irish Guinness",
+	name: "Coronodo Fall Classic",
 	country: "IE",
 	detail: "600 ml",
-	price: "$29",
+	price: "Oct 31-Nov 2",
  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
-	country: "US",
+	name: "Girl Hooper Tourney",
+	country: "AU",
 	detail: "Battle",
-	price: "$10",
+	price: "Oct 04-06",
  },
  {
-	name: "Passionfruit Mint",
-	country: "US",
+	name: "Halloween Hoopfest",
+	country: "AU",
 	detail: "Battle",
-	price: "$49",
+	price: "Oct 10-12",
  },
  {
-	name: "Citrus Glow",
+	name: "Hoop Dreams Classic",
 	country: "CA",
 	detail: "750 ml",
-	price: "$20",
+	price: "Oct 24-26",
  },
  {
-	name: "Lavender Fizz",
+	name: "Coronodo Fall Classic",
 	country: "IE",
 	detail: "600 ml",
-	price: "$29",
+	price: "Oct 31-Nov 2",
  },
 ];
 
