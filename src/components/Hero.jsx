@@ -40,43 +40,44 @@ const Hero = () => {
           scrub: true,
         },
       })
-      .to(".right-leaf", { y: 200 }, 0)
-      .to(".left-leaf", { y: -200 }, 0);
+      .to(".right-ball", { y: 200 }, 0)
+      .to(".left-ball", { y: -200 }, 0)
+      .to(".arrow", { y: 100 }, 0);
 
-      const startValue = isMobile ? 'top 50%' : 'center 60%';
-      const endValue = isMobile ? '120% top' : 'bottom top';
+    const startValue = isMobile ? "top 50%" : "center 60%";
+    const endValue = isMobile ? "120% top" : "bottom top";
 
-      let tl = gsap.timeline({
-          scrollTrigger: {
-              trigger: "video",
-              start: startValue,
-              end: endValue,
-              scrub: true,
-              pin: true,
-          },
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "video",
+        start: startValue,
+        end: endValue,
+        scrub: true,
+        pin: true,
+      },
+    });
+
+    videoRef.current.onloadedmetadata = () => {
+      tl.to(videoRef.current, {
+        currentTime: videoRef.current.duration,
       });
-
-      videoRef.current.onloadedmetadata = () => {
-          tl.to(videoRef.current, {
-              currentTime: videoRef.current.duration,
-          });
-      };
+    };
   }, []);
 
   return (
     <>
-      <section id="hero" className="noisy">
+      <section id="home" className="noisy">
         <h1 className="title">CYFAIR</h1>
 
         <img
-          src="/images/hero-left-leaf.png"
-          alt="left-leaf"
-          className="left-leaf"
+          src="/images/hero-left-ball.png"
+          alt="left-ball"
+          className="left-ball"
         />
         <img
-          src="/images/hero-right-leaf.png"
-          alt="right-leaf"
-          className="right-leaf"
+          src="/images/hero-right-ball.png"
+          alt="right-ball"
+          className="right-ball"
         />
 
         <div className="body">
@@ -91,9 +92,10 @@ const Hero = () => {
 
             <div className="view-cocktails">
               <p className="subtitle">
-                CyFair is a Nike basketball affiliate. Our girl's program is a year-round basketball organization in the state of New Mexico.
+                CyFair is a Nike basketball affiliate. Our girl's program is a
+                year-round basketball organization in the state of New Mexico.
               </p>
-              <a href="#cocktails">More Information</a>
+              <a href="#Join">Join Us</a>
             </div>
           </div>
         </div>
