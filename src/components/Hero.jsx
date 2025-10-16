@@ -41,8 +41,8 @@ const Hero = () => {
         },
       })
       .to(".right-ball", { y: 200 }, 0)
-      .to(".left-ball", { y: -200 }, 0)
-      .to(".arrow", { y: 100 }, 0);
+      .to(".left-ball", { y: -200 }, 0 )
+      .to(".arrow", { y: 100 }, 0 );
 
     const startValue = isMobile ? "top 50%" : "center 60%";
     const endValue = isMobile ? "120% top" : "bottom top";
