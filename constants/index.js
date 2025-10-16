@@ -4,6 +4,10 @@ const navLinks = [
 	title: "Home",
  },
  {
+	id: "upcoming",
+	title: "Upcoming Events",
+ },
+ {
 	id: "about",
 	title: "About Us",
  },
@@ -19,55 +23,55 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
+	name: "Krystal Manny Classic",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 04-06",
  },
  {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
+	name: "Halloween Hoopfest",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 17-19",
  },
  {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
+	name: "Hoop Dreams Classic",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 24-26",
  },
  {
-	name: "Irish Guinness",
+	name: "Coronodo Fall Classic",
 	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+	detail: "Garfield Middle School",
+	price: "Oct 31-Nov 2",
  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
+	name: "Girl Hooper Tourney",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 04-06",
  },
  {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
+	name: "Halloween Hoopfest",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 10-12",
  },
  {
-	name: "Citrus Glow",
-	country: "CA",
+	name: "Hoop Dreams Classic",
+	country: "",
 	detail: "750 ml",
-	price: "$20",
+	price: "Garfield Middle School",
  },
  {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+	name: "Coronodo Fall Classic",
+	country: "",
+	detail: "Garfield Middle School",
+	price: "Oct 31-Nov 2",
  },
 ];
 
@@ -87,17 +91,17 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+ "Autographed Basketball ",
+ "20 Game Passes to any 2024 event",
+ "Team uniform shooting shirts",
+ "Team uniform shooting shirts",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+ "A listing of your business name",
+ "Advertising on the website",
+ "Logo on CYFAIR on CYFAIR banners",
+ "A picture with the Nike EYBL Team",
 ];
 
 const storeInfo = {
@@ -137,35 +141,67 @@ const socials = [
 const sliderLists = [
  {
 	id: 1,
-	name: "Classic Mojito",
+	name: "Aaliyah Chavez",
 	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
+	title: "Class of 2025 | Point Guard",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus. ",
  },
  {
 	id: 2,
-	name: "Raspberry Mojito",
+	name: "Aniya Foy",
 	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
+	title: "Class of 2025 | Shooting Guard",
 	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
  },
  {
 	id: 3,
-	name: "Violet Breeze",
+	name: "Isabella Hines",
 	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
+	title: "Class of 2025 | Small Forward",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
  },
  {
 	id: 4,
-	name: "Curacao Mojito",
+	name: "Ayla McDowell",
 	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
+	title: "Class of 2025 | Power Forward",
 	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
+ },
+ {
+	id: 5,
+	name: "Niyah Waters",
+	image: "/images/drink5.png",
+	title: "Class of 2025 | Power Forward",
+	description:
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
+ },
+ {
+	id: 6,
+	name: "Sania Richardson",
+	image: "/images/drink6.png",
+	title: "Class of 2025 | Power Forward",
+	description:
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
+ },
+ {
+	id: 7,
+	name: "Imani Daniel",
+	image: "/images/drink7.png",
+	title: "Class of 2025 | Power Forward",
+	description:
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
+ },
+ {
+	id: 8,
+	name: "Eliece Perry ",
+	image: "/images/drink8.png",
+	title: "Class of 2025 | Power Forward",
+	description:
+	 "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
  },
 ];
 
