@@ -84,6 +84,9 @@
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
+<details>
+    <summary> 👈 Click here to expand</summary>
+    
 
 ### Prerequisites
 
@@ -128,7 +131,9 @@ In the project directory, you can run:
 *   `npm run build`: Builds the app for production to the `dist` folder.
 *   `npm run lint`: Lints the code using ESLint.
 *   `npm run preview`: Serves the production build locally for previewing. -->
+</details>
 <br>
+<br> 
 <!-- CONTRIBUTING -->
 ## Contributing
 
