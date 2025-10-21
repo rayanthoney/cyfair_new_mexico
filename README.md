@@ -44,12 +44,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage"><s>Usage</s></a></li>
+    <li><a href="#roadmap"><s>Roadmap</s></a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
 <br>
@@ -77,7 +77,7 @@
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 🚀 Getting Started
 
 To get a local copy up and running, follow these simple steps.    
 
@@ -85,10 +85,10 @@ To get a local copy up and running, follow these simple steps.
 
 *   [Node.js](https://nodejs.org/en/) (which comes with npm)
 
+### Installation
+
 <details>
     <summary> 👈 Click here for Installation Instructions</summary>
-
-### Installation
 
 1.  Clone the repo
     ```sh
@@ -99,7 +99,7 @@ To get a local copy up and running, follow these simple steps.
     npm install
     ```
 
-### Development
+### 🧠 Development
 
 To run the app in the development mode, run the following command:
 
@@ -109,7 +109,7 @@ npm run dev
 
 This will open the app in your browser at [http://localhost:5173](http://localhost:5173).
 
-### Build
+### 🔧 Build
 
 To build the app for production, run the following command:
 
@@ -119,7 +119,7 @@ npm run build
 
 This will create a `dist` folder in the project root, which contains the production-ready files.
 
-## Available Scripts
+## 💻 Available Scripts
 
 In the project directory, you can run:
 
@@ -130,6 +130,16 @@ In the project directory, you can run:
 </details>
 <br>
 <br> 
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* 👍[JavaScript Mastery](https://jsmastery.com/)
+* 🏀[Cyfair Elite Basketball](https://www.cyfairelitebasketball.com/)
+* []()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -142,9 +152,7 @@ Don't forget to give the project a star! Thanks again!
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+5. Open a Pull Request.
 
 <!-- LICENSE -->
 ## License
@@ -156,14 +164,7 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 Your Name - [@rayanthoney](https://twitter.com/your_username) - info@rayanthoney.com
 
-Project Link: [https://github.com/rayanthoney/cyfair_new_mexico](https://github.com/rayanthoney/cyfair_new_mexico)
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/rayanthoney/cyfair_new_mexico](https://github.com/rayanthoney/cyfair_new_mexico)/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
