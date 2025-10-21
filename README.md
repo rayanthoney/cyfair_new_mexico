@@ -83,14 +83,14 @@
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
-<details>
-    <summary> 👈 Click here to expand</summary>
-    
+To get a local copy up and running, follow these simple steps.    
 
 ### Prerequisites
 
 *   [Node.js](https://nodejs.org/en/) (which comes with npm)
+
+<details>
+    <summary> 👈 Click here for Installation Instructions</summary>
 
 ### Installation
 
