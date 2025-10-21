@@ -70,10 +70,8 @@
 * [![TailWind][TailWind]][TailWind-url]
 * [![GSAP][GSAP]][GSAP-url]
 * [![ESLint][ESLint]][ESLint-url]
-  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<br>
 
 <!-- GETTING STARTED -->
 
