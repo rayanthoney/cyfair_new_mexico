@@ -77,16 +77,16 @@ const mockTailLists = [
 
 const profileLists = [
   {
-    imgPath: "/images/profile1.png",
+    imgPath: "/images/webp/profile1.webp",
   },
   {
-    imgPath: "/images/profile2.png",
+    imgPath: "/images/webp/profile2.webp",
   },
   {
-    imgPath: "/images/profile3.png",
+    imgPath: "/images/webp/profile3.webp",
   },
   {
-    imgPath: "/images/profile4.png",
+    imgPath: "/images/webp/profile4.webp",
   },
 ];
 
@@ -123,17 +123,17 @@ const openingHours = [
 const socials = [
   {
     name: "Instagram",
-    icon: "/images/insta.png",
+    icon: "/images/webp/insta.webp",
     url: "#",
   },
   {
     name: "X (Twitter)",
-    icon: "/images/x.png",
+    icon: "/images/webp/x.webp",
     url: "#",
   },
   {
     name: "Facebook",
-    icon: "/images/fb.png",
+    icon: "/images/webp/fb.webp",
     url: "#",
   },
 ];
@@ -142,7 +142,7 @@ const sliderLists = [
   {
     id: 1,
     name: "Aaliyah Chavez",
-    image: "/images/drink1.png",
+    image: "/images/webp/drink1.webp",
     title: "Class of 2025 | Point Guard",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus. ",
@@ -150,7 +150,7 @@ const sliderLists = [
   {
     id: 2,
     name: "Aniya Foy",
-    image: "/images/drink2.png",
+    image: "/images/webp/drink2.webp",
     title: "Class of 2025 | Shooting Guard",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -158,7 +158,7 @@ const sliderLists = [
   {
     id: 3,
     name: "Isabella Hines",
-    image: "/images/drink3.png",
+    image: "/images/webp/drink3.webp",
     title: "Class of 2025 | Small Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -166,7 +166,7 @@ const sliderLists = [
   {
     id: 4,
     name: "Ayla McDowell",
-    image: "/images/drink4.png",
+    image: "/images/webp/drink4.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -174,7 +174,7 @@ const sliderLists = [
   {
     id: 5,
     name: "Niyah Waters",
-    image: "/images/drink5.png",
+    image: "/images/webp/drink5.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -182,7 +182,7 @@ const sliderLists = [
   {
     id: 6,
     name: "Sania Richardson",
-    image: "/images/drink6.png",
+    image: "/images/webp/drink6.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -190,7 +190,7 @@ const sliderLists = [
   {
     id: 7,
     name: "Imani Daniel",
-    image: "/images/drink7.png",
+    image: "/images/webp/drink7.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -198,7 +198,7 @@ const sliderLists = [
   {
     id: 8,
     name: "Eliece Perry ",
-    image: "/images/drink8.png",
+    image: "/images/webp/drink8.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",

@@ -70,18 +70,18 @@ const Hero = () => {
         <h1 className="title">CYFAIR</h1>
 
         <img
-          src="/images/hero-left-ball.png"
+          src="/images/webp/hero-left-ball.webp"
           alt="left-ball"
           className="left-ball"
         />
         <img
-          src="/images/hero-right-ball.png"
+          src="/images/webp/hero-right-ball.webp"
           alt="right-ball"
           className="right-ball"
         />
 
         <div className="body">
-          <img src="/images/arrow.png" alt="arrow" className="arrow" />
+          <img src="/images/webp/arrow.webp" alt="arrow" className="arrow" />
           <div className="content">
             <div className="space-y-5 hidden md:block">
               <p>Mental Toughness = Greatness.</p>
@@ -107,7 +107,7 @@ const Hero = () => {
           src="/videos/output.mp4"
           muted
           playsInline
-          preload="auto"
+          preload="metadata"
         />
       </div>
     </>

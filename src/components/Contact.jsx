@@ -38,12 +38,12 @@ const Contact = () => {
   return (
     <footer id="contact" >
       <img
-        src="/images/footer-right-ball.png"
+        src="/images/webp/footer-right-ball.webp"
         alt="ball-right"
         id="f-right-ball"
       />
       <img
-        src="/images/footer-left-ball.png"
+        src="/images/webp/footer-left-ball.webp"
         alt="ball-left"
         id="f-left-ball"
       />

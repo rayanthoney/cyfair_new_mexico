@@ -26,8 +26,8 @@ const Upcoming = () => {
 
   return (
     <section id="upcoming" className="noisy">
-      <img src="/images/upcoming-left-ball.png" alt="l-ball" id="c-left-ball" />
-      <img src="/images/upcoming-right-ball.png" alt="r-ball" id="c-right-ball" />
+      <img src="/images/webp/upcoming-left-ball.webp" alt="l-ball" id="c-left-ball" />
+      <img src="/images/webp/upcoming-right-ball.webp" alt="r-ball" id="c-right-ball" />
 
       <div className="list">
         <div className="popular">
