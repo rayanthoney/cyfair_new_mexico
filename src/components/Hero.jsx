@@ -68,7 +68,6 @@ const Hero = () => {
     <>
       <section id="home" className="noisy">
         <h1 className="title">CYFAIR</h1>
-
         <img
           src="/images/webp/hero-left-ball.webp"
           alt="left-ball"

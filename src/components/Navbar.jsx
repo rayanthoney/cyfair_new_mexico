@@ -24,7 +24,7 @@ const Navbar = () => {
             <div>
                 <a href="#home" className="flex items-center gap-2">
                     <img src='/images/webp/logo.webp' alt='logo'></img>
-                    <p>CYFAIR EliTE NM</p>
+                    <p>CYFAIR ELiTE NM</p>
                 </a>
                 <ul>
                     {navLinks.map((link) => (

@@ -15,7 +15,7 @@ const Upcoming = () => {
 
     parallaxTimeline
       .from("#c-left-ball", {
-        x:  -100,
+        x: -100,
         y: 100,
       })
       .from("#c-right-ball", {
@@ -26,8 +26,16 @@ const Upcoming = () => {
 
   return (
     <section id="upcoming" className="noisy">
-      <img src="/images/webp/upcoming-left-ball.webp" alt="l-ball" id="c-left-ball" />
-      <img src="/images/webp/upcoming-right-ball.webp" alt="r-ball" id="c-right-ball" />
+      {/* <img
+        src="/images/webp/upcoming-left-ball.webp"
+        alt="l-ball"
+        id="c-left-ball"
+      />
+      <img
+        src="/images/webp/upcoming-right-ball.webp"
+        alt="r-ball"
+        id="c-right-ball"
+      /> */}
 
       <div className="list">
         <div className="popular">

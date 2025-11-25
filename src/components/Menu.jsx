@@ -61,7 +61,7 @@ const Menu = () => {
 
   return (
     <section id="menu" aria-labelledby="menu-heading">
-      <img
+      {/* <img
         src="/images/webp/slider-left-ball.webp"
         alt="left-ball"
         id="m-left-ball"
@@ -70,7 +70,7 @@ const Menu = () => {
         src="/images/webp/slider-right-ball.webp"
         alt="right-ball"
         id="m-right-ball"
-      />
+      /> */}
 
       <h2 id="menu-heading" className="sr-only">
         Cocktail Menu
