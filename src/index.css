@@ -48,12 +48,10 @@ body {
 }
 
 @utility radial-gradient {
-  background: radial-gradient(
-    circle at center,
-    #434343 0%,
-    #000 50%,
-    transparent 100%
-  );
+  background: radial-gradient(circle at center,
+      #434343 0%,
+      #000 50%,
+      transparent 100%);
 }
 
 @utility masked-img {
@@ -89,7 +87,7 @@ body {
   }
 
   .noisy {
-    @apply absolute inset-0 size-full bg-[url("/images/noise.webp")];
+    @apply absolute inset-0 size-full bg-[url("images/noise.webp")];
   }
 
   #home {
@@ -121,7 +119,7 @@ body {
           @apply 2xl:text-start text-center;
         }
 
-        .view-cocktails {
+        .team-info {
           @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
 
           p {
@@ -222,7 +220,7 @@ body {
     .top-grid {
       @apply grid grid-cols-1 xl:grid-cols-12 gap-5 mb-5 md:px-0 px-5;
 
-      > div {
+      >div {
         @apply rounded-3xl overflow-hidden h-72 relative;
       }
 
@@ -234,7 +232,7 @@ body {
     .bottom-grid {
       @apply grid grid-cols-1 md:grid-cols-12 gap-5 md:px-0 px-5;
 
-      > div {
+      >div {
         @apply rounded-3xl overflow-hidden h-72 relative;
       }
 
@@ -244,7 +242,7 @@ body {
     }
   }
 
-  #art {
+  #gallery {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
@@ -255,7 +253,7 @@ body {
       @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
     }
 
-    .cocktail-img {
+    .gallery-img {
       @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
     }
 
@@ -278,7 +276,7 @@ body {
     }
   }
 
-  #menu {
+  #roster {
     @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
 
     #m-left-ball {
@@ -289,7 +287,7 @@ body {
       @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
     }
 
-    .cocktail-tabs {
+    .division-tabs {
       @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
       button {
@@ -313,7 +311,7 @@ body {
       }
     }
 
-    .cocktail {
+    .roster-display {
       @apply flex-center mt-10;
 
       img {
@@ -321,7 +319,7 @@ body {
       }
     }
 
-    .recipe {
+    .player-details {
       @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-0;
 
       .info {
@@ -373,7 +371,7 @@ body {
       }
     }
 
-    .drink-img {
+    .accent-img {
       @apply absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none;
     }
   }

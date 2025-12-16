@@ -41,8 +41,8 @@ const Hero = () => {
         },
       })
       .to(".right-ball", { y: 200 }, 0)
-      .to(".left-ball", { y: -200 }, 0 )
-      .to(".arrow", { y: 100 }, 0 );
+      .to(".left-ball", { y: -200 }, 0)
+      .to(".arrow", { y: 100 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
     const endValue = isMobile ? "120% top" : "bottom top";
@@ -89,7 +89,7 @@ const Hero = () => {
               </p>
             </div>
 
-            <div className="view-cocktails">
+            <div className="team-info">
               <p className="subtitle">
                 CyFair is a Nike basketball affiliate. Our girl's program is a
                 year-round basketball organization in the state of New Mexico.

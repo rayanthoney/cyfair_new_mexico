@@ -21,57 +21,57 @@ const navLinks = [
   },
 ];
 
-const cocktailLists = [
+const tournamentList = [
   {
     name: "Krystal Manny Classic",
     country: "",
-    detail: "Sandia Prep High School",
-    price: "Oct 04-06",
+    location: "Sandia Prep High School",
+    date: "Oct 04-06",
   },
   {
     name: "Halloween Hoopfest",
     country: "",
-    detail: "Valley High School",
-    price: "Oct 17-19",
+    location: "Valley High School",
+    date: "Oct 17-19",
   },
   {
     name: "Hoop Dreams Classic",
     country: "",
-    detail: "Los Lunas High School",
-    price: "Oct 24-26",
+    location: "Los Lunas High School",
+    date: "Oct 24-26",
   },
   {
     name: "Coronodo Fall Classic",
     country: "",
-    detail: "Bernalillo High School",
-    price: "Oct 31-Nov 2",
+    location: "Bernalillo High School",
+    date: "Oct 31-Nov 2",
   },
 ];
 
-const mockTailLists = [
+const trainingList = [
   {
     name: "Krystal Manny Classic",
     country: "",
-    detail: "Garfield Middle School",
-    price: "Oct 04-06",
+    location: "Garfield Middle School",
+    date: "Oct 04-06",
   },
   {
     name: "Halloween Hoopfest",
     country: "",
-    detail: "Garfield Middle School",
-    price: "Oct 17-19",
+    location: "Garfield Middle School",
+    date: "Oct 17-19",
   },
   {
     name: "Hoop Dreams Classic",
     country: "",
-    detail: "Garfield Middle School",
-    price: "Oct 24 - Oct 26",
+    location: "Garfield Middle School",
+    date: "Oct 24 - Oct 26",
   },
   {
     name: "Coronodo Fall Classic",
     country: "",
-    detail: "Garfield Middle School",
-    price: "Oct 31-Nov 2",
+    location: "Garfield Middle School",
+    date: "Oct 31-Nov 2",
   },
 ];
 
@@ -109,7 +109,7 @@ const storeInfo = {
   address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
   contact: {
     phone: "(555) 987-6543",
-    email: "hello@jsmcocktail.com",
+    email: "hello@cyfairelitenmcom",
   },
 };
 
@@ -138,7 +138,7 @@ const socials = [
   },
 ];
 
-const sliderLists = [
+const rosterList = [
   {
     id: 1,
     name: "Aaliyah Chavez",
@@ -207,13 +207,13 @@ const sliderLists = [
 
 export {
   navLinks,
-  cocktailLists,
-  mockTailLists,
+  tournamentList,
+  trainingList,
   profileLists,
   featureLists,
   goodLists,
   openingHours,
   storeInfo,
   socials,
-  sliderLists,
+  rosterList,
 };

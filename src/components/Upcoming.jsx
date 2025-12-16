@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { cocktailLists, mockTailLists } from "../../constants/index.js";
+import { tournamentList, trainingList } from "../../constants/index.js";
 
 const Upcoming = () => {
   useGSAP(() => {
@@ -42,15 +42,15 @@ const Upcoming = () => {
           <h2>Upcoming Tournaments: </h2>
 
           <ul>
-            {cocktailLists.map(({ name, country, detail, price }) => (
+            {tournamentList.map(({ name, country, location, date }) => (
               <li key={name}>
                 <div className="md:me-28">
                   <h3>{name}</h3>
                   <p>
-                    {country} | {detail}
+                    {country} | {location}
                   </p>
                 </div>
-                <span>- {price}</span>
+                <span>- {date}</span>
               </li>
             ))}
           </ul>
@@ -60,15 +60,15 @@ const Upcoming = () => {
           <h2>Practice and Training: </h2>
 
           <ul>
-            {mockTailLists.map(({ name, country, detail, price }) => (
+            {trainingList.map(({ name, country, location, date }) => (
               <li key={name}>
                 <div className="me-28">
                   <h3>{name}</h3>
                   <p>
-                    {country} | {detail}
+                    {country} | {location}
                   </p>
                 </div>
-                <span>- {price}</span>
+                <span>- {date}</span>
               </li>
             ))}
           </ul>
