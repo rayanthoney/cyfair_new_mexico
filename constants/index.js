@@ -28,7 +28,7 @@ const navLinks = [
 const tournamentList = [
   {
     name: "Krystal Manny Classic",
-    country: "",
+    country: "USA",
     location: "Sandia Prep High School",
     date: "Jan 04-06",
     time: "TBA",
@@ -36,7 +36,7 @@ const tournamentList = [
   },
   {
     name: "Ball Out Tournament",
-    country: "",
+    country: "USA",
     location: "Bernalillo High School",
     date: "Jan 11-13",
     time: "TBA",
@@ -63,7 +63,7 @@ const tournamentList = [
 const trainingList = [
   {
     name: "No Ceilings Training",
-    country: "",
+    country: "USA",
     location: "Garfield Middle School",
     date: "Jan 25",
   },
