@@ -94,7 +94,7 @@ const Hero = () => {
                 CyFair is a Nike basketball affiliate. Our girl's program is a
                 year-round basketball organization in the state of New Mexico.
               </p>
-              <a href="#Join">Join Us</a>
+              <a href="#contact">Join</a>
             </div>
           </div>
         </div>

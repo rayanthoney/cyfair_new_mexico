@@ -60,11 +60,8 @@ const Contact = () => {
           {/* Left Column: Invite & Info */}
           <div className="md:col-span-5 flex flex-col justify-between space-y-10 contact-info text-left">
             <div>
-              <h3 className="text-3xl font-anton uppercase mb-4 text-white">Next Level Awaits</h3>
-              <p className="text-lg text-white/80 leading-relaxed max-w-md">
-                We are looking for elite talent committed to hard work and excellence.
-                Ready to take your game to the national stage? Fill out the profile to connect with our coaching staff.
-              </p>
+              <h3 className="text-3xl font-anton uppercase mb-4 text-white">The Next Level Awaits</h3>
+              <p className="text-lg text-white/80 leading-relaxed max-w-md">We are seeking elite athletes who are deeply committed to hard work and competitive excellence. If you are ready to showcase your skills on a national stage, we invite you to complete your player profile. Connect with our coaching staff today and take the first step toward reaching your full potential.</p>
             </div>
 
             <div className="space-y-6">
@@ -89,7 +86,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-anton uppercase text-xl">Email</h4>
-                  <p className="text-white/60">hello@cyfairnm.com</p>
+                  <p className="text-white/60">coach@cyfairelitenm.com</p>
                 </div>
               </div>
             </div>

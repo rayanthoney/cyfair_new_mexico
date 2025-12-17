@@ -61,8 +61,8 @@ const Sponsorships = () => {
 				<div className="masked-container">
 					<h2 className="will-fade">Sponsor Our Program</h2>
 					<div id="masked-content">
-						<h3>Corporate Sponsorship</h3>
-						<p>In an effort to provide businesses the opportunity to become involved in our program and help us reach our goals, we have opened up our corporate sponsorships. Companies get to partner with us to impact kids and also get some advertising and visibility with our program. We have various levels of Corporate Sponsorships.</p>
+						<h3>Corporate Partnerships</h3>
+						<p>We invite local businesses to partner with CYFAIR New Mexico through our Corporate Sponsorship program. This initiative offers a unique opportunity for companies to make a meaningful impact on the lives of young athletes while gaining significant brand visibility and community engagement. We offer various sponsorship levels designed to meet your business goals and demonstrate your commitment to developing the next generation of leaders.</p>
 					</div>
 				</div>
 			</div>
