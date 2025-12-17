@@ -12,8 +12,12 @@ const navLinks = [
     title: "About Us",
   },
   {
-    id: "sponser",
-    title: "Sponsership",
+    id: "sponsorships",
+    title: "Sponsor Us",
+  },
+  {
+    id: "roster",
+    title: "Roster/Teams",
   },
   {
     id: "contact",
@@ -26,52 +30,60 @@ const tournamentList = [
     name: "Krystal Manny Classic",
     country: "",
     location: "Sandia Prep High School",
-    date: "Oct 04-06",
+    date: "Jan 04-06",
+    time: "TBA",
+    result: "W 58-45",
   },
   {
-    name: "Halloween Hoopfest",
-    country: "",
-    location: "Valley High School",
-    date: "Oct 17-19",
-  },
-  {
-    name: "Hoop Dreams Classic",
-    country: "",
-    location: "Los Lunas High School",
-    date: "Oct 24-26",
-  },
-  {
-    name: "Coronodo Fall Classic",
+    name: "Ball Out Tournament",
     country: "",
     location: "Bernalillo High School",
-    date: "Oct 31-Nov 2",
+    date: "Jan 11-13",
+    time: "TBA",
+    result: "",
+  },
+  {
+    name: "Cyfair's March Mania",
+    country: "",
+    location: "Los Volcanos High School",
+    date: "Mar 01-03",
+    time: "TBA",
+    result: "",
+  },
+  {
+    name: "Arizona Nike Tournament",
+    country: "",
+    location: "Cardinal Stadium",
+    date: "Apr 17-19",
+    time: "TBA",
+    result: "",
   },
 ];
 
 const trainingList = [
   {
-    name: "Krystal Manny Classic",
+    name: "No Ceilings Training",
     country: "",
     location: "Garfield Middle School",
-    date: "Oct 04-06",
+    date: "Jan 25",
   },
   {
-    name: "Halloween Hoopfest",
+    name: "Fundemental Training",
     country: "",
     location: "Garfield Middle School",
-    date: "Oct 17-19",
+    date: "Jan 27",
   },
   {
-    name: "Hoop Dreams Classic",
+    name: "Practice",
     country: "",
     location: "Garfield Middle School",
-    date: "Oct 24 - Oct 26",
+    date: "Feb 3",
   },
   {
-    name: "Coronodo Fall Classic",
+    name: "Practice",
     country: "",
     location: "Garfield Middle School",
-    date: "Oct 31-Nov 2",
+    date: "Feb 5",
   },
 ];
 
