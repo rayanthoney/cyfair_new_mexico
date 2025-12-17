@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive'
 import { useGSAP } from '@gsap/react'
 import { featureLists, goodLists } from '../../constants/index.js'
 
-const Gallery = () => {
+const Sponsorships = () => {
 	const isMobile = useMediaQuery({ maxWidth: 767 });
 
 	useGSAP(() => {
@@ -11,7 +11,7 @@ const Gallery = () => {
 
 		const maskTimeline = gsap.timeline({
 			scrollTrigger: {
-				trigger: '#gallery',
+				trigger: '#sponsorships',
 				start,
 				end: 'bottom center',
 				scrub: 1.5,
@@ -26,7 +26,7 @@ const Gallery = () => {
 	})
 
 	return (
-		<div id="gallery">
+		<div id="sponsorships">
 			<div className="container mx-auto h-full pt-20">
 				<h2 className="will-fade">Support</h2>
 
@@ -40,7 +40,7 @@ const Gallery = () => {
 						))}
 					</ul>
 
-					<div className="gallery-img">
+					<div className="sponsor-img">
 						<img
 							src="/images/webp/under-img.webp"
 							alt=""
@@ -69,4 +69,4 @@ const Gallery = () => {
 		</div>
 	)
 }
-export default Gallery
+export default Sponsorships
