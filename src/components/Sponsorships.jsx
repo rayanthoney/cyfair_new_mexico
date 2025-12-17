@@ -27,7 +27,7 @@ const Sponsorships = () => {
 
 	return (
 		<div id="sponsorships">
-			<div className="container mx-auto h-full pt-20">
+			<div className="container mx-auto px-5 py-24">
 				<h2 className="will-fade">Support</h2>
 
 				<div className="content">

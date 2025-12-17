@@ -25,8 +25,8 @@ const Upcoming = () => {
   });
 
   return (
-    <section id="upcoming" className="noisy">
-      <div className="container mx-auto relative z-10 pt-40 px-5">
+    <section id="upcoming">
+      <div className="container mx-auto relative z-10 px-5 py-24">
         <div className="flex flex-col gap-20">
 
           {/* Tournaments Section */}

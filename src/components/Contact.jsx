@@ -50,7 +50,7 @@ const Contact = () => {
         className="absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3"
       />
 
-      <div className="container mx-auto h-full flex flex-col items-center justify-center max-w-7xl">
+      <div className="container mx-auto px-5 py-24 flex flex-col items-center justify-center max-w-7xl">
         <h2 className="text-5xl md:text-7xl lg:text-8xl font-anton uppercase text-center md:mb-16 mb-10 leading-none">
           Join The <span className="text-yellow">Family</span>
         </h2>

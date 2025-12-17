@@ -16,6 +16,10 @@ const navLinks = [
     title: "Sponsor Us",
   },
   {
+    id: "fundraising",
+    title: "Community",
+  },
+  {
     id: "roster",
     title: "Roster/Teams",
   },
@@ -23,6 +27,39 @@ const navLinks = [
     id: "contact",
     title: "Contact",
   },
+];
+
+const fundraisersList = [
+  {
+    title: "Annual Car Wash",
+    location: "Speedy Shine, Albuquerque",
+    date: "Mar 15",
+    link: "#",
+    action: "Get Info"
+  },
+  {
+    title: "Charity 3v3 Tournament",
+    location: "Valley High School Gym",
+    date: "Apr 02",
+    link: "#",
+    action: "Register"
+  },
+  {
+    title: "Silent Auction Gala",
+    location: "Marriott Pyramid North",
+    date: "May 20",
+    link: "#",
+    action: "Buy Tickets"
+  }
+];
+
+const communityImages = [
+  "/images/webp/fund1.webp",
+  "/images/webp/fund2.webp",
+  "/images/webp/fund3.webp",
+  "/images/webp/fund4.webp",
+  "/images/webp/fund5.webp",
+  "/images/webp/fund6.webp",
 ];
 
 const tournamentList = [
@@ -228,4 +265,8 @@ export {
   storeInfo,
   socials,
   rosterList,
+  fundraisersList,
+  communityImages,
 };
+
+

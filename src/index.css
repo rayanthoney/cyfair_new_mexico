@@ -187,7 +187,7 @@ body {
   }
 
   #about {
-    @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
+    @apply min-h-screen w-full;
 
     .content {
       @apply grid grid-cols-1 lg:grid-cols-12 gap-5;
@@ -243,7 +243,7 @@ body {
   }
 
   #sponsorships {
-    @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
+    @apply flex-center flex-col min-h-dvh mt-20 relative radial-gradient;
 
     h2 {
       @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-anton text-center text-[#505050] mb-8;
@@ -345,7 +345,7 @@ body {
   }
 
   #contact {
-    @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
+    @apply relative md:mt-20 mt-0 text-center w-full overflow-hidden radial-gradient;
 
     #f-left-ball {
       @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;

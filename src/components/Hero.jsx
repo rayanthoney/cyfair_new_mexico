@@ -66,7 +66,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id="home" className="noisy">
+      <section id="home">
         <h1 className="title">CYFAIR</h1>
         <img
           src="/images/webp/hero-left-ball.webp"
