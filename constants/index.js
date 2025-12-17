@@ -105,19 +105,19 @@ const trainingList = [
     date: "Jan 25",
   },
   {
-    name: "Fundemental Training",
+    name: "Fundamental Training",
     country: "",
     location: "Garfield Middle School",
     date: "Jan 27",
   },
   {
-    name: "Practice",
+    name: "Fundamental Practice",
     country: "",
     location: "Garfield Middle School",
     date: "Feb 3",
   },
   {
-    name: "Practice",
+    name: "Fundamental Practice",
     country: "",
     location: "Garfield Middle School",
     date: "Feb 5",
