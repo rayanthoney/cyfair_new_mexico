@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import Upcoming from "./components/Upcoming.jsx";
 import About from "./components/About.jsx";
-import Gallery from "./components/Gallery.jsx";
+import Sponsorships from "./components/Sponsorships.jsx";
 import Roster from "./components/Roster.jsx";
 import Contact from "./components/Contact.jsx";
 
@@ -17,7 +17,7 @@ const App = () => {
       <Hero />
       <Upcoming />
       <About />
-      <Gallery />
+      <Sponsorships />
       <Roster />
       <Contact />
     </main>

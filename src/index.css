@@ -87,7 +87,7 @@ body {
   }
 
   .noisy {
-    @apply absolute inset-0 size-full bg-[url("images/noise.webp")];
+    @apply absolute inset-0 size-full bg-[url("/images/webp/noise.webp")];
   }
 
   #home {
@@ -242,7 +242,7 @@ body {
     }
   }
 
-  #gallery {
+  #sponsorships {
     @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
     h2 {
@@ -253,13 +253,13 @@ body {
       @apply flex md:flex-row flex-col justify-between md:mb-16 md:mt-0 mt-40 gap-10;
     }
 
-    .gallery-img {
+    .sponsor-img {
       @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
     }
 
     .masked-container {
       h2 {
-        @apply text-4xl md:text-5xl font-anton text-center mb-10 text-white mt-32;
+        @apply text-4xl md:text-5xl font-anton text-center mb-20 text-white mt-32;
       }
 
       div {
