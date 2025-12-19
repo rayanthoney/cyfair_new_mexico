@@ -35,28 +35,32 @@ const fundraisersList = [
     location: "Walmart, Rio Rancho",
     date: "Dec 13",
     link: "#",
-    action: "Get Info"
+    action: "Get Info",
+    flyerImage: "/images/webp/flyer.webp"
   },
   {
     title: "Annual Car Wash",
     location: "Speedy Shine, Albuquerque",
     date: "Mar 15",
     link: "#",
-    action: "Get Info"
+    action: "Get Info",
+    flyerImage: "/images/webp/flyer-placeholder.webp"
   },
   {
     title: "Charity 3v3 Tournament",
     location: "Valley High School Gym",
     date: "Apr 02",
     link: "#",
-    action: "Register"
+    action: "Register",
+    flyerImage: "/images/webp/flyer-placeholder.webp"
   },
   {
     title: "Silent Auction Gala",
     location: "Marriott Pyramid North",
     date: "May 20",
     link: "#",
-    action: "Buy Tickets"
+    action: "Buy Tickets",
+    flyerImage: "/images/webp/flyer-placeholder.webp"
   }
 ];
 
@@ -116,14 +120,14 @@ const trainingList = [
   {
     name: "No Ceilings Training",
     country: "USA",
-    location: "Garfield Middle School",
-    date: "Jan 25",
+    location: "Hayes Middle School",
+    date: "Jan 11",
   },
   {
-    name: "Fundamental Training",
-    country: "",
-    location: "Garfield Middle School",
-    date: "Jan 27",
+    name: "No Ceilings Training",
+    country: "USA",
+    location: "Hayes Middle School",
+    date: "Jan 18",
   },
   {
     name: "Fundamental Practice",

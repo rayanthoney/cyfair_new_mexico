@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -7,6 +8,8 @@ import { fundraisersList, communityImages } from "../../constants/index.js";
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const Fundraising = () => {
+    const [selectedFlyer, setSelectedFlyer] = useState(null);
+
     useGSAP(() => {
         // Header Animation
         const titleSplit = SplitText.create("#fundraising h2", { type: "words" });
@@ -109,9 +112,12 @@ const Fundraising = () => {
 
                                 {/* Action */}
                                 <div className="md:col-span-3 flex justify-center md:justify-end">
-                                    <a href={event.link} className="text-white border border-white/30 px-6 py-2 uppercase font-bold tracking-widest text-sm hover:bg-white hover:text-black transition-all">
+                                    <button
+                                        onClick={() => event.flyerImage && setSelectedFlyer(event.flyerImage)}
+                                        className="text-white border border-white/30 px-6 py-2 uppercase font-bold tracking-widest text-sm hover:bg-white hover:text-black transition-all cursor-pointer"
+                                    >
                                         {event.action}
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         ))}
@@ -136,6 +142,28 @@ const Fundraising = () => {
                 </div>
 
             </div>
+
+            {/* Flyer Modal */}
+            {selectedFlyer && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4"
+                    onClick={() => setSelectedFlyer(null)}
+                >
+                    <div className="relative max-w-2xl w-full" onClick={(e) => e.stopPropagation()}>
+                        <button
+                            onClick={() => setSelectedFlyer(null)}
+                            className="absolute -top-10 right-0 text-white hover:text-yellow text-xl font-bold"
+                        >
+                            CLOSE [X]
+                        </button>
+                        <img
+                            src={selectedFlyer}
+                            alt="Event Flyer"
+                            className="w-full h-auto rounded-lg shadow-2xl border border-white/20"
+                        />
+                    </div>
+                </div>
+            )}
         </section>
     );
 };
