@@ -31,6 +31,13 @@ const navLinks = [
 
 const fundraisersList = [
   {
+    title: "Chile Frito Pie",
+    location: "Walmart, Rio Rancho",
+    date: "Dec 13",
+    link: "#",
+    action: "Get Info"
+  },
+  {
     title: "Annual Car Wash",
     location: "Speedy Shine, Albuquerque",
     date: "Mar 15",
@@ -72,10 +79,18 @@ const tournamentList = [
     result: "W 58-45",
   },
   {
+    name: "Grassroots Basketball Tournament",
+    country: "USA",
+    location: "El Paso, TX",
+    date: "Jan-Mar 10 - 01",
+    time: "TBA",
+    result: "",
+  },
+  {
     name: "Ball Out Tournament",
     country: "USA",
     location: "Bernalillo High School",
-    date: "Jan 11-13",
+    date: "Mar 08-11",
     time: "TBA",
     result: "",
   },
@@ -83,7 +98,7 @@ const tournamentList = [
     name: "Cyfair's March Mania",
     country: "",
     location: "Los Volcanos High School",
-    date: "Mar 01-03",
+    date: "Mar 13-15",
     time: "TBA",
     result: "",
   },
