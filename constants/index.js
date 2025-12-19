@@ -31,7 +31,7 @@ const navLinks = [
 
 const fundraisersList = [
   {
-    title: "Chile Frito Pie",
+    title: "Chile Frito Pie Sale",
     location: "Walmart, Rio Rancho",
     date: "Dec 13",
     link: "#",
