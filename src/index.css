@@ -259,7 +259,7 @@ body {
 
     .masked-container {
       h2 {
-        @apply text-4xl md:text-5xl font-anton text-center mb-20 text-white mt-32;
+        @apply text-4xl md:text-5xl font-anton text-center mb-20 text-white mt-25;
       }
 
       div {

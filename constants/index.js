@@ -5,15 +5,15 @@ const navLinks = [
   },
   {
     id: "upcoming",
-    title: "Upcoming Events",
+    title: "Schedule",
   },
   {
     id: "about",
-    title: "About Us",
+    title: "About",
   },
   {
     id: "sponsorships",
-    title: "Sponsor Us",
+    title: "Sponsor",
   },
   {
     id: "fundraising",
@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     id: "roster",
-    title: "Roster/Teams",
+    title: "Roster",
   },
   {
     id: "contact",
@@ -158,7 +158,7 @@ const storeInfo = {
   address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
   contact: {
     phone: "(555) 987-6543",
-    email: "hello@cyfairelitenmcom",
+    email: "coach@cyfairelitenm.com",
   },
 };
 
