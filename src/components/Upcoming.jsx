@@ -25,9 +25,22 @@ const Upcoming = () => {
   });
 
   return (
-    <section id="upcoming">
-      <div className="container mx-auto relative z-10 px-5 py-24">
-        <div className="flex flex-col gap-20">
+    <section id="upcoming" className="relative min-h-dvh w-full overflow-hidden">
+      <img
+        src="/images/webp/left-ball.webp" // Assuming common ball name or specific from CSS
+        id="c-left-ball"
+        alt=""
+        className="absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3"
+      />
+      <img
+        src="/images/webp/right-ball.webp"
+        id="c-right-ball"
+        alt=""
+        className="absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3"
+      />
+
+      <div className="list container mx-auto relative z-10 flex md:flex-row flex-col justify-between items-start gap-20 pt-40 2xl:px-0 px-5">
+        <div className="flex flex-col gap-20 w-full">
 
           {/* Tournaments Section */}
           <div className="w-full">
@@ -46,7 +59,7 @@ const Upcoming = () => {
                   <div className="md:col-span-8 space-y-2">
                     <h3 className="font-anton text-2xl md:text-4xl uppercase text-white tracking-wide">{name}</h3>
                     <div className="flex items-center gap-2 text-white/60 text-sm md:text-base font-medium uppercase tracking-wider">
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-yellow" viewBox="0 0 20 20" fill="currentColor">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-yellow" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                         <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                       </svg>
                       {location}

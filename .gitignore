@@ -25,3 +25,6 @@ GEMINI.md
 *.njsproj
 *.sln
 *.sw?
+
+# Documentation
+docs/

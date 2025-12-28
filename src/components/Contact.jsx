@@ -50,8 +50,14 @@ const Contact = () => {
         className="absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3"
       />
 
-      <div className="container mx-auto px-5 py-24 flex flex-col items-center justify-center max-w-7xl">
-        <h2 className="text-5xl md:text-7xl lg:text-8xl font-anton uppercase text-center md:mb-16 mb-10 leading-none">
+      <img
+        src="/images/webp/footer-mid-ball.webp" // Assuming this is the accent-img from CSS or similar
+        alt=""
+        className="accent-img absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none"
+      />
+
+      <div className="content container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh">
+        <h2 className="text-5xl md:text-7xl font-anton uppercase text-center md:mb-16 mb-10 leading-none lg:text-6xl 2xl:text-8xl md:translate-y-0 translate-y-5">
           Join The <span className="text-yellow">Family</span>
         </h2>
 
@@ -60,8 +66,8 @@ const Contact = () => {
           {/* Left Column: Invite & Info */}
           <div className="md:col-span-5 flex flex-col justify-between space-y-10 contact-info text-left">
             <div>
-              <h3 className="text-3xl font-anton uppercase mb-4 text-white">The Next Level Awaits</h3>
-              <p className="text-lg text-white/80 leading-relaxed max-w-md">We are seeking elite athletes who are deeply committed to hard work and competitive excellence. If you are ready to showcase your skills on a national stage, we invite you to complete your player profile. Connect with our coaching staff today and take the first step toward reaching your full potential.</p>
+              <h3 className="font-anton uppercase text-white xl:text-base 2xl:text-lg text-base mb-2">The Next Level Awaits</h3>
+              <p className="text-white/80 leading-relaxed max-w-md lg:text-2xl 2xl:text-3xl text-sm">We are seeking elite athletes who are deeply committed to hard work and competitive excellence. If you are ready to showcase your skills on a national stage, we invite you to complete your player profile. Connect with our coaching staff today and take the first step toward reaching your full potential.</p>
             </div>
 
             <div className="space-y-6">

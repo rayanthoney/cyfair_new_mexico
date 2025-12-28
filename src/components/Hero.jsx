@@ -28,7 +28,7 @@ const Hero = () => {
       duration: 1.8,
       ease: "expo.out",
       stagger: 0.05,
-      delay: 1,
+      delay: 0.5,
     });
 
     gsap
@@ -57,43 +57,51 @@ const Hero = () => {
       },
     });
 
-    videoRef.current.onloadedmetadata = () => {
-      tl.to(videoRef.current, {
-        currentTime: videoRef.current.duration,
-      });
-    };
-  }, []);
+    if (videoRef.current) {
+      if (videoRef.current.readyState >= 1) {
+        tl.to(videoRef.current, {
+          currentTime: videoRef.current.duration,
+        });
+      } else {
+        videoRef.current.onloadedmetadata = () => {
+          tl.to(videoRef.current, {
+            currentTime: videoRef.current.duration,
+          });
+        };
+      }
+    }
+  }, [isMobile]);
 
   return (
     <>
-      <section id="home">
-        <h1 className="title">CYFAIR</h1>
+      <section id="home" className="relative z-10 min-h-dvh w-full border border-transparent">
+        <h1 className="title md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-anton">CYFAIR</h1>
         <img
           src="/images/webp/hero-left-ball.webp"
           alt="left-ball"
-          className="left-ball"
+          className="left-ball absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3"
         />
         <img
           src="/images/webp/hero-right-ball.webp"
           alt="right-ball"
-          className="right-ball"
+          className="right-ball absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24"
         />
 
-        <div className="body">
+        <div className="body container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5">
           <img src="/images/webp/arrow.webp" alt="arrow" className="arrow" />
-          <div className="content">
-            <div className="space-y-5 hidden md:block">
-              <p>Mental Toughness = Greatness.</p>
-              <p className="subtitle">
+          <div className="content flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto">
+            <div className="space-y-5 block">
+              <p className="text-xl md:text-base font-medium">Mental Toughness = Greatness.</p>
+              <p className="subtitle text-4xl md:text-6xl font-anton text-yellow max-w-xl">
                 New Mexico <br /> Girls Basketball
               </p>
             </div>
 
-            <div className="team-info">
-              <p className="subtitle">
+            <div className="team-info space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full">
+              <p className="subtitle text-left 2xl:text-start">
                 CYFAIR New Mexico is a proud Nike Basketball affiliate. As a premier year-round girls' basketball organization, we are dedicated to providing elite training and competitive opportunities throughout the state of New Mexico.
               </p>
-              <a className="" href="#contact">Join Now</a>
+              <a className="font-semibold opacity-80 2xl:text-start text-center hover:text-yellow" href="#contact">Join Now</a>
             </div>
           </div>
         </div>

@@ -85,7 +85,7 @@ const Fundraising = () => {
                         href="https://paypal.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-yellow text-black font-anton text-2xl px-12 py-4 uppercase tracking-wider hover:bg-white transition-colors transform hover:-translate-y-1 shadow-[0_0_20px_rgba(255,215,0,0.3)]"
+                        className="btn-primary text-2xl px-12 py-4 shadow-[0_0_20px_rgba(255,215,0,0.3)]"
                     >
                         Donate Now
                     </a>
