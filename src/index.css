@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 
 @import "tailwindcss";
 
 @font-face {
   font-family: "Modern Negra";
   src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
-  font-family: "Anton", sans-serif;
+}
+
+@font-face {
+  font-family: "Anton";
   src: url("/fonts/Anton-Regular.ttf") format("truetype");
 }
 
@@ -66,25 +69,7 @@ body {
     @apply w-full overflow-x-hidden;
   }
 
-  nav {
-    @apply fixed z-50 w-full;
 
-    div {
-      @apply flex md:flex-row flex-col md:justify-between items-center gap-5 py-5 lg:px-0 px-5 container mx-auto;
-    }
-
-    p {
-      @apply font-anton text-2xl -mb-2;
-    }
-
-    a {
-      @apply cursor-pointer text-nowrap md:text-base text-sm;
-    }
-
-    ul {
-      @apply flex-center lg:gap-12 gap-7;
-    }
-  }
 
   .noisy {
     @apply absolute inset-0 size-full bg-[url("/images/webp/noise.webp")];

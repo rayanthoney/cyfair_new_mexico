@@ -31,7 +31,7 @@ const Upcoming = () => {
 
           {/* Tournaments Section */}
           <div className="w-full">
-            <h2 className="text-4xl font-anton mb-10 text-yellow uppercase">Upcoming Tournaments</h2>
+            <h2 className="text-4xl font-anton mb-10 text-yellow uppercase">Upcoming 2026 Tournaments</h2>
             <div className="flex flex-col gap-0 border-t border-white/20">
               {tournamentList.map(({ name, location, date, time, result }, index) => (
                 <div key={index} className="grid grid-cols-1 md:grid-cols-12 gap-4 py-8 border-b border-white/10 hover:bg-white/5 transition-colors items-center">

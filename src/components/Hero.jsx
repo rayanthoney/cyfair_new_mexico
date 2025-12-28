@@ -91,10 +91,9 @@ const Hero = () => {
 
             <div className="team-info">
               <p className="subtitle">
-                CyFair is a Nike basketball affiliate. Our girl's program is a
-                year-round basketball organization in the state of New Mexico.
+                CYFAIR New Mexico is a proud Nike Basketball affiliate. As a premier year-round girls' basketball organization, we are dedicated to providing elite training and competitive opportunities throughout the state of New Mexico.
               </p>
-              <a href="#contact">Join</a>
+              <a className="" href="#contact">Join Now</a>
             </div>
           </div>
         </div>
