@@ -163,7 +163,7 @@ const Contact = () => {
                 <textarea rows="3" placeholder="Paste HUDL link or write a message..." className="w-full bg-black/20 border-b border-white/20 px-4 py-3 text-white focus:outline-none focus:border-yellow transition-colors placeholder:text-white/20 resize-none"></textarea>
               </div>
 
-              <button className="w-full bg-black text-yellow border border-yellow font-medium uppercase text-xl py-4 tracking-wider hover:bg-yellow hover:text-black transition-colors">
+              <button className="w-full text-xl py-4 btn-primary">
                 Submit Profile
               </button>
             </form>

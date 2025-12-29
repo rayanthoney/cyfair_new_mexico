@@ -66,7 +66,7 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply inline-block bg-yellow text-black font-anton uppercase tracking-wider hover:bg-white transition-colors transform hover:-translate-y-1 cursor-pointer;
+    @apply inline-block bg-black text-yellow border border-yellow font-medium uppercase tracking-wider hover:bg-yellow hover:text-black transition-colors cursor-pointer;
   }
 
   .btn-link {
