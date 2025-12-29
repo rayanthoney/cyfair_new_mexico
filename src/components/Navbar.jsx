@@ -64,7 +64,7 @@ const Navbar = () => {
                 {/* Mobile Hamburger Button */}
                 <button
                     onClick={toggleMenu}
-                    className="md:hidden z-[60] text-3xl text-white focus:outline-none"
+                    className="lg:hidden z-[60] text-3xl text-white focus:outline-none"
                     aria-label="Toggle Menu"
                 >
                     {isMenuOpen ? (
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </button>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-8 items-center">
+                <ul className="hidden lg:flex gap-8 items-center">
                     {navLinks.map((link) => (
                         <li key={link.id}>
                             <a
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </ul>
 
                 {/* Mobile Menu Overlay */}
-                <div className={`fixed inset-0 bg-black/95 backdrop-blur-xl z-50 flex flex-col justify-center items-center gap-8 transition-transform duration-300 ease-in-out md:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`fixed inset-0 bg-black/95 backdrop-blur-xl z-50 flex flex-col justify-center items-center gap-8 transition-transform duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                     {navLinks.map((link) => (
                         <a
                             key={link.id}
