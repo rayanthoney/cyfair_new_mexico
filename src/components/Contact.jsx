@@ -28,10 +28,10 @@ const Contact = () => {
         stagger: 0.2
       })
       .to('#f-right-ball', {
-        y: '-50', duration: 1, ease: 'power1.inOut'
+        y: '-20', duration: 1, ease: 'power1.inOut'
       })
       .to('#f-left-ball', {
-        y: '-50', duration: 1, ease: 'power1.inOut'
+        y: '-20', duration: 1, ease: 'power1.inOut'
       }, '<')
   })
 
@@ -41,7 +41,7 @@ const Contact = () => {
         src="/images/webp/footer-right-ball.webp"
         alt="ball-right"
         id="f-right-ball"
-        className="absolute top-0 right-0 pointer-events-none hidden lg:block"
+        className="absolute top-0 right-0 pointer-events-none lg:w-fit w-1/3"
       />
       <img
         src="/images/webp/footer-left-ball.webp"
@@ -50,11 +50,7 @@ const Contact = () => {
         className="absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3"
       />
 
-      <img
-        src="/images/webp/footer-mid-ball.webp" // Assuming this is the accent-img from CSS or similar
-        alt=""
-        className="accent-img absolute bottom-0 right-0 lg:w-96 w-1/3 pointer-events-none"
-      />
+
 
       <div className="content container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh">
         <h2 className="text-5xl md:text-7xl font-anton uppercase text-center md:mb-16 mb-10 leading-none lg:text-6xl 2xl:text-8xl md:translate-y-0 translate-y-5">
