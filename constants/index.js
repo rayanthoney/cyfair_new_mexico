@@ -278,7 +278,8 @@ const socials = [
   },
 ];
 
-const rosterList = [
+// Legacy roster data (preserved for future use)
+const legacyRosterList = [
   {
     id: 1,
     name: "Aaliyah Chavez",
@@ -345,6 +346,378 @@ const rosterList = [
   },
 ];
 
+// New roster structure organized by division
+const rosterByDivision = {
+  "17U": [
+    {
+      id: 1,
+      name: "Aaliyah Chavez",
+      jerseyNumber: 23,
+      position: "Point Guard",
+      gradYear: 2025,
+      image: "/images/webp/drink1.webp",
+      bio: "Dynamic point guard with exceptional court vision and leadership skills. Known for her ability to control the tempo and create scoring opportunities for teammates."
+    },
+    {
+      id: 2,
+      name: "Aniya Foy",
+      jerseyNumber: 15,
+      position: "Shooting Guard",
+      gradYear: 2025,
+      image: "/images/webp/drink2.webp",
+      bio: "Sharpshooting guard with a deadly three-point shot. Her offensive versatility and defensive intensity make her a complete two-way player."
+    },
+    {
+      id: 3,
+      name: "Isabella Hines",
+      jerseyNumber: 32,
+      position: "Small Forward",
+      gradYear: 2025,
+      image: "/images/webp/drink3.webp",
+      bio: "Athletic wing player who excels in transition and can score from all three levels. A lockdown defender with great instincts."
+    },
+    {
+      id: 4,
+      name: "Ayla McDowell",
+      jerseyNumber: 44,
+      position: "Power Forward",
+      gradYear: 2025,
+      image: "/images/webp/drink4.webp",
+      bio: "Physical presence in the paint with a soft touch around the rim. Dominates the boards and protects the rim with her shot-blocking ability."
+    },
+    {
+      id: 5,
+      name: "Jasmine Carter",
+      jerseyNumber: 8,
+      position: "Center",
+      gradYear: 2025,
+      image: "/images/webp/drink5.webp",
+      bio: "Dominant center with exceptional footwork and post moves. Her defensive presence and rebounding prowess anchor the team's interior game."
+    },
+    {
+      id: 6,
+      name: "Kennedy Brown",
+      jerseyNumber: 17,
+      position: "Shooting Guard",
+      gradYear: 2025,
+      image: "/images/webp/drink6.webp",
+      bio: "Versatile guard who can score from anywhere on the court. Her clutch gene and competitive fire make her a go-to player in critical moments."
+    },
+    {
+      id: 7,
+      name: "Sophia Williams",
+      jerseyNumber: 25,
+      position: "Small Forward",
+      gradYear: 2025,
+      image: "/images/webp/drink7.webp",
+      bio: "Athletic wing with exceptional defensive skills. Her ability to guard multiple positions and create turnovers energizes the team."
+    },
+    {
+      id: 8,
+      name: "Mia Rodriguez",
+      jerseyNumber: 4,
+      position: "Point Guard",
+      gradYear: 2025,
+      image: "/images/webp/drink8.webp",
+      bio: "Floor general with exceptional decision-making and court awareness. Her leadership and poise under pressure guide the team to victory."
+    },
+    {
+      id: 9,
+      name: "Olivia Garcia",
+      jerseyNumber: 13,
+      position: "Power Forward",
+      gradYear: 2025,
+      image: "/images/webp/drink1.webp",
+      bio: "Strong and physical forward who dominates the paint. Her relentless work ethic and toughness set the tone for the entire team."
+    },
+    {
+      id: 10,
+      name: "Emma Martinez",
+      jerseyNumber: 20,
+      position: "Shooting Guard",
+      gradYear: 2025,
+      image: "/images/webp/drink2.webp",
+      bio: "Sharpshooter with unlimited range and quick release. Her ability to stretch the defense creates opportunities for her teammates."
+    },
+  ],
+  "16U": [
+    {
+      id: 5,
+      name: "Niyah Waters",
+      jerseyNumber: 10,
+      position: "Point Guard",
+      gradYear: 2026,
+      image: "/images/webp/drink5.webp",
+      bio: "Quick and crafty point guard with excellent ball-handling skills. Her ability to penetrate and dish makes her a constant threat on offense."
+    },
+    {
+      id: 6,
+      name: "Sania Richardson",
+      jerseyNumber: 21,
+      position: "Shooting Guard",
+      gradYear: 2026,
+      image: "/images/webp/drink6.webp",
+      bio: "Explosive scorer who can heat up in a hurry. Her athleticism and competitive spirit energize the entire team."
+    },
+    {
+      id: 7,
+      name: "Imani Daniel",
+      jerseyNumber: 5,
+      position: "Small Forward",
+      gradYear: 2026,
+      image: "/images/webp/drink7.webp",
+      bio: "Versatile forward with a high basketball IQ. Can play multiple positions and always makes the right play."
+    },
+    {
+      id: 11,
+      name: "Eliece Perry",
+      jerseyNumber: 33,
+      position: "Power Forward",
+      gradYear: 2026,
+      image: "/images/webp/drink8.webp",
+      bio: "Strong and aggressive post player who never backs down from a challenge. Her rebounding and interior defense anchor the team."
+    },
+    {
+      id: 12,
+      name: "Ava Johnson",
+      jerseyNumber: 2,
+      position: "Center",
+      gradYear: 2026,
+      image: "/images/webp/drink1.webp",
+      bio: "Skilled big with soft hands and great court vision. Her ability to pass out of the post makes her a dual threat in the paint."
+    },
+    {
+      id: 13,
+      name: "Madison Lee",
+      jerseyNumber: 9,
+      position: "Point Guard",
+      gradYear: 2026,
+      image: "/images/webp/drink2.webp",
+      bio: "Quick and elusive guard with exceptional speed. Her ability to push the pace and create fast-break opportunities is unmatched."
+    },
+    {
+      id: 14,
+      name: "Harper Davis",
+      jerseyNumber: 16,
+      position: "Small Forward",
+      gradYear: 2026,
+      image: "/images/webp/drink3.webp",
+      bio: "Two-way player who excels on both ends of the floor. Her hustle plays and energy are infectious to her teammates."
+    },
+    {
+      id: 15,
+      name: "Ella Wilson",
+      jerseyNumber: 27,
+      position: "Shooting Guard",
+      gradYear: 2026,
+      image: "/images/webp/drink4.webp",
+      bio: "Crafty scorer with a diverse offensive arsenal. Her ability to create her own shot makes her a constant scoring threat."
+    },
+    {
+      id: 16,
+      name: "Chloe Anderson",
+      jerseyNumber: 6,
+      position: "Power Forward",
+      gradYear: 2026,
+      image: "/images/webp/drink5.webp",
+      bio: "Athletic forward with great timing and instincts. Her shot-blocking ability and defensive versatility are game-changers."
+    },
+    {
+      id: 17,
+      name: "Grace Thomas",
+      jerseyNumber: 18,
+      position: "Point Guard",
+      gradYear: 2026,
+      image: "/images/webp/drink6.webp",
+      bio: "Smart playmaker with excellent basketball IQ. Her ability to read defenses and make the right play elevates her teammates."
+    },
+  ],
+  "15U": [
+    {
+      id: 9,
+      name: "Maya Johnson",
+      jerseyNumber: 12,
+      position: "Point Guard",
+      gradYear: 2027,
+      image: "/images/webp/drink1.webp",
+      bio: "Rising star with incredible court awareness and passing ability. Her basketball IQ is well beyond her years."
+    },
+    {
+      id: 10,
+      name: "Zara Mitchell",
+      jerseyNumber: 24,
+      position: "Shooting Guard",
+      gradYear: 2027,
+      image: "/images/webp/drink2.webp",
+      bio: "Pure shooter with unlimited range. Her work ethic and dedication to improvement set the standard for the team."
+    },
+    {
+      id: 11,
+      name: "Destiny Brooks",
+      jerseyNumber: 7,
+      position: "Center",
+      gradYear: 2027,
+      image: "/images/webp/drink3.webp",
+      bio: "Dominant force in the paint with great footwork and touch. Her presence changes the game on both ends of the floor."
+    },
+    {
+      id: 21,
+      name: "Skylar Adams",
+      jerseyNumber: 14,
+      position: "Small Forward",
+      gradYear: 2027,
+      image: "/images/webp/drink4.webp",
+      bio: "Athletic wing with a nose for the ball. Her hustle plays and energy are contagious to her teammates."
+    },
+    {
+      id: 22,
+      name: "Lily Moore",
+      jerseyNumber: 1,
+      position: "Point Guard",
+      gradYear: 2027,
+      image: "/images/webp/drink5.webp",
+      bio: "Fearless point guard with great vision and passing ability. Her leadership skills and composure are advanced for her age."
+    },
+    {
+      id: 23,
+      name: "Addison Taylor",
+      jerseyNumber: 19,
+      position: "Shooting Guard",
+      gradYear: 2027,
+      image: "/images/webp/drink6.webp",
+      bio: "Smooth scorer with a beautiful shooting form. Her confidence and ability to knock down big shots make her a clutch performer."
+    },
+    {
+      id: 24,
+      name: "Scarlett White",
+      jerseyNumber: 28,
+      position: "Power Forward",
+      gradYear: 2027,
+      image: "/images/webp/drink7.webp",
+      bio: "Physical player who thrives in contact situations. Her toughness and rebounding prowess give her team second-chance opportunities."
+    },
+    {
+      id: 25,
+      name: "Zoey Harris",
+      jerseyNumber: 11,
+      position: "Small Forward",
+      gradYear: 2027,
+      image: "/images/webp/drink8.webp",
+      bio: "Versatile wing who can impact the game in multiple ways. Her defensive intensity and offensive creativity make her invaluable."
+    },
+    {
+      id: 26,
+      name: "Victoria Clark",
+      jerseyNumber: 26,
+      position: "Center",
+      gradYear: 2027,
+      image: "/images/webp/drink1.webp",
+      bio: "Skilled post player with excellent footwork and touch. Her ability to finish through contact and protect the rim is impressive."
+    },
+    {
+      id: 27,
+      name: "Penelope Lewis",
+      jerseyNumber: 31,
+      position: "Shooting Guard",
+      gradYear: 2027,
+      image: "/images/webp/drink2.webp",
+      bio: "Dynamic scorer with exceptional athleticism. Her ability to attack the basket and finish in traffic sets her apart."
+    },
+  ],
+  "14U": [
+    {
+      id: 13,
+      name: "Layla Martinez",
+      jerseyNumber: 3,
+      position: "Point Guard",
+      gradYear: 2028,
+      image: "/images/webp/drink5.webp",
+      bio: "Young floor general with exceptional fundamentals. Her composure under pressure is remarkable for her age."
+    },
+    {
+      id: 14,
+      name: "Aria Thompson",
+      jerseyNumber: 11,
+      position: "Shooting Guard",
+      gradYear: 2028,
+      image: "/images/webp/drink6.webp",
+      bio: "Smooth scorer with a beautiful shooting stroke. Her confidence and poise make her a go-to option in crucial moments."
+    },
+    {
+      id: 15,
+      name: "Riley Cooper",
+      jerseyNumber: 22,
+      position: "Power Forward",
+      gradYear: 2028,
+      image: "/images/webp/drink7.webp",
+      bio: "Tough and physical player who thrives in contact. Her relentless motor and competitive fire inspire her teammates."
+    },
+    {
+      id: 30,
+      name: "Jordan Hayes",
+      jerseyNumber: 30,
+      position: "Center",
+      gradYear: 2028,
+      image: "/images/webp/drink8.webp",
+      bio: "Skilled big with soft hands and great timing. Her ability to finish around the basket and protect the rim is impressive."
+    },
+    {
+      id: 31,
+      name: "Natalie Walker",
+      jerseyNumber: 7,
+      position: "Point Guard",
+      gradYear: 2028,
+      image: "/images/webp/drink1.webp",
+      bio: "Quick and shifty guard with excellent handles. Her ability to break down defenders and create plays is remarkable for her age."
+    },
+    {
+      id: 32,
+      name: "Hannah Hall",
+      jerseyNumber: 15,
+      position: "Shooting Guard",
+      gradYear: 2028,
+      image: "/images/webp/drink2.webp",
+      bio: "Pure shooter with great mechanics and range. Her work ethic and dedication to improvement inspire her teammates."
+    },
+    {
+      id: 33,
+      name: "Brooklyn Allen",
+      jerseyNumber: 24,
+      position: "Small Forward",
+      gradYear: 2028,
+      image: "/images/webp/drink3.webp",
+      bio: "Athletic wing with great instincts on both ends. Her ability to read the game and make plays is advanced beyond her years."
+    },
+    {
+      id: 34,
+      name: "Aubrey Young",
+      jerseyNumber: 5,
+      position: "Power Forward",
+      gradYear: 2028,
+      image: "/images/webp/drink4.webp",
+      bio: "Strong and physical forward who dominates the boards. Her motor never stops and she brings energy every possession."
+    },
+    {
+      id: 35,
+      name: "Bella King",
+      jerseyNumber: 12,
+      position: "Center",
+      gradYear: 2028,
+      image: "/images/webp/drink5.webp",
+      bio: "Developing post player with great potential. Her size and willingness to learn make her a promising young talent."
+    },
+    {
+      id: 36,
+      name: "Savannah Scott",
+      jerseyNumber: 9,
+      position: "Shooting Guard",
+      gradYear: 2028,
+      image: "/images/webp/drink6.webp",
+      bio: "Crafty scorer with a smooth offensive game. Her ability to create space and knock down shots makes her a scoring threat."
+    },
+  ],
+};
+
 export {
   navLinks,
   tournamentList,
@@ -355,7 +728,8 @@ export {
   openingHours,
   storeInfo,
   socials,
-  rosterList,
+  legacyRosterList,
+  rosterByDivision,
   fundraisersList,
   communityImages,
 };
