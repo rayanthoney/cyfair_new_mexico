@@ -40,8 +40,8 @@ const Hero = () => {
           scrub: true,
         },
       })
-      .to(".right-ball", { y: 200 }, 0)
-      .to(".left-ball", { y: -200 }, 0)
+      .to(".right-ball", { y: 50 }, 0)
+      .to(".left-ball", { y: -50 }, 0)
       .to(".arrow", { y: 100 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
@@ -76,16 +76,16 @@ const Hero = () => {
     <>
       <section id="home" className="relative z-10 min-h-dvh w-full border border-transparent">
         <h1 className="title md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-anton">CYFAIR</h1>
-        {/* <img
+        <img
           src="/images/webp/hero-left-ball.webp"
           alt="left-ball"
-          className="left-ball absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3"
+          className="left-ball absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3"
         />
         <img
           src="/images/webp/hero-right-ball.webp"
           alt="right-ball"
-          className="right-ball absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24"
-        /> */}
+          className="right-ball absolute top-0 right-0 pointer-events-none lg:w-fit w-1/3"
+        />
 
         <div className="body container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5">
           <img src="/images/webp/arrow.webp" alt="arrow" className="arrow" />
