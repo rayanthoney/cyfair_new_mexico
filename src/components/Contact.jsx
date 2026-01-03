@@ -52,7 +52,7 @@ const Contact = () => {
 
 
 
-      <div className="content container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh">
+      <div className="content container mx-auto lg:py-14 2xl:py-32 py-16 flex flex-col justify-between gap-10 min-h-dvh relative z-10">
         <h2 className="text-5xl md:text-7xl font-anton uppercase text-center md:mb-16 mb-10 leading-none lg:text-6xl 2xl:text-8xl md:translate-y-0 translate-y-5">
           Join The <span className="text-yellow">Family</span>
         </h2>
@@ -165,6 +165,10 @@ const Contact = () => {
             </form>
           </div>
         </div>
+
+        <p className="copyright-text">
+          &copy; {new Date().getFullYear()} Store Inc. Created by <a target="_blank" rel="noreferrer" className="copyright-link" href="https://meroiticmedia.com">Meroitic Media</a>. All rights reserved. | <a href="#" className="copyright-link">Privacy Policy</a>
+        </p>
       </div>
     </footer>
   );
