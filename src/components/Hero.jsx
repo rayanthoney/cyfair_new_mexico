@@ -98,10 +98,10 @@ const Hero = () => {
             </div>
 
             <div className="team-info space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full">
-              <p className="subtitle text-left 2xl:text-start">
+              <p className="subtitle text-center lg:text-left leading-relaxed text-balance">
                 CYFAIR New Mexico is a proud Nike Basketball affiliate. As a premier year-round girls' basketball organization, we are dedicated to providing elite training and competitive opportunities throughout the state of New Mexico.
               </p>
-              <a className="font-semibold opacity-80 2xl:text-start text-center hover:text-yellow" href="#contact">Join Now</a>
+              <a className="font-semibold opacity-80 lg:text-left text-center hover:text-yellow" href="#contact">Join Now</a>
             </div>
           </div>
         </div>
