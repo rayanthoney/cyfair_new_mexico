@@ -167,7 +167,7 @@ const Contact = () => {
         </div>
 
         <p className="copyright-text">
-          &copy; {new Date().getFullYear()} Store Inc. Created by <a target="_blank" rel="noreferrer" className="copyright-link" href="https://meroiticmedia.com">Meroitic Media</a>. All rights reserved. | <a href="#" className="copyright-link">Privacy Policy</a>
+          &copy; {new Date().getFullYear()} Cyfair Elite NM. Created by <a target="_blank" rel="noreferrer" className="copyright-link" href="https://meroiticmedia.com">Meroitic Media</a>. All rights reserved. | <a href="#" className="copyright-link">Privacy Policy</a>
         </p>
       </div>
     </footer>

@@ -238,7 +238,7 @@ const Roster = () => {
                     <img
                       src={player.image}
                       alt={player.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover object-bottom transition-transform duration-500 group-hover:scale-110"
                       draggable="false"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
