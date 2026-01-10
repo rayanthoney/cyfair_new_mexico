@@ -13,6 +13,7 @@ This document presents the newly developed digital platform for **Cyfair New Mex
 - **Interactive Player Cards**: A modern carousel interface replacing static lists.
 - **Deep-Dive Profiles**: Modal views provide detailed statistics and bios without cluttering the main view.
 - **Benefit**: engaging experience for scouts and families; easy to update.
+> [🔗 **Live Demo: View Roster**](https://cyfair-nm.vercel.app#roster)
 
 ### 2. High-Impact Brand Visuals
 ![Hero Section Screenshot](images/hero_screenshot.png)
@@ -20,6 +21,7 @@ This document presents the newly developed digital platform for **Cyfair New Mex
 - **Animation Engine**: Built with **GSAP (GreenSock Animation Platform)** for cinema-quality entrance animations and smooth transitions.
 - **Responsive Design**: Flawless experience across mobile, tablet, and desktop devices.
 - **Benefit**: Immediate "Wow" factor that establishes professional credibility.
+> [🔗 **Live Demo: Main Page**](https://cyfair-nm.vercel.app)
 
 ### 3. Integrated Engagement Tools
 ![Contact Form Screenshot](images/contact_screenshot.png)
@@ -27,6 +29,7 @@ This document presents the newly developed digital platform for **Cyfair New Mex
 - **Direct Communication**: Custom-built contact forms for general inquiries and recruitment.
 - **Revenue Focus**: dedicated sections for fundraising and sponsorships to support program viability.
 - **Benefit**: Converts passive visitors into active supporters and leads.
+> [🔗 **Live Demo: Contact Support**](https://cyfair-nm.vercel.app#contact)
 
 ---
 

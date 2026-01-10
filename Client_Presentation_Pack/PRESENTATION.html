@@ -1,185 +1,119 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: #24292e;
-        }
-
-        img {
-            max-width: 100%;
-            border: 2px dashed #ccc;
-            padding: 20px;
-            background: #f9f9f9;
-            display: block;
-            margin: 20px auto;
-        }
-
-        img::before {
-            content: "Missing Image";
-            display: block;
-            text-align: center;
-        }
-
-        code {
-            background-color: #f6f8fa;
-            padding: 0.2em 0.4em;
-            border-radius: 3px;
-        }
-
-        pre {
-            background-color: #f6f8fa;
-            padding: 16px;
-            overflow: auto;
-            border-radius: 6px;
-        }
-
-        blockquote {
-            border-left: 0.25em solid #dfe2e5;
-            color: #6a737d;
-            padding: 0 1em;
-            margin: 0;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            margin-bottom: 1rem;
-        }
-
-        th,
-        td {
-            border: 1px solid #dfe2e5;
-            padding: 6px 13px;
-        }
-
-        th {
-            background-color: #f6f8fa;
-            font-weight: 600;
-        }
-
-        h1,
-        h2,
-        h3 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-
-        .alert {
-            padding: 15px;
-            margin-bottom: 20px;
-            border: 1px solid transparent;
-            border-radius: 4px;
-        }
-
-        .alert-important {
-            color: #856404;
-            background-color: #fff3cd;
-            border-color: #ffeeba;
-        }
-    </style>
+    
+<style>
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #24292e;
+    }
+    img { max-width: 100%; border: 2px dashed #ccc; padding: 20px; background: #f9f9f9; display: block; margin: 20px auto; }
+    img::before { content: "Missing Image"; display: block; text-align: center; } 
+    .live-link { display: inline-block; background: #0366d6; color: white; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-weight: bold; margin-top: 10px; }
+    blockquote a { text-decoration: none; font-weight: bold; color: #0366d6; }
+    code { background-color: #f6f8fa; padding: 0.2em 0.4em; border-radius: 3px; }
+    pre { background-color: #f6f8fa; padding: 16px; overflow: auto; border-radius: 6px; }
+    blockquote { border-left: 0.25em solid #dfe2e5; color: #6a737d; padding: 0 1em; margin: 0; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 1rem; }
+    th, td { border: 1px solid #dfe2e5; padding: 6px 13px; }
+    th { background-color: #f6f8fa; font-weight: 600; }
+    h1, h2, h3 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+    .alert { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; }
+    .alert-important { color: #856404; background-color: #fff3cd; border-color: #ffeeba; }
+</style>
 
 </head>
-
 <body>
     <h1>Cyfair New Mexico: Digital Experience Overview</h1>
-    <h2>Executive Summary</h2>
-    <p>This document presents the newly developed digital platform for <strong>Cyfair New Mexico</strong>. Moving beyond
-        a standard website, this application is a high-performance, interactive tool designed to elevate branding,
-        streamline player showcasing, and drive organizational growth through effective fundraising and communication
-        channels.</p>
-    <hr>
-    <h2>🚀 Key Features &amp; Deliverables</h2>
-    <h3>1. Dynamic Roster Management</h3>
-    <p><img src="images/roster_screenshot.png" alt="Dynamic Roster Screenshot">
-        <strong>Files:</strong> <code>Roster.jsx</code>, <code>PlayerModal.jsx</code>
-    </p>
-    <ul>
-        <li><strong>Interactive Player Cards</strong>: A modern carousel interface replacing static lists.</li>
-        <li><strong>Deep-Dive Profiles</strong>: Modal views provide detailed statistics and bios without cluttering the
-            main view.</li>
-        <li><strong>Benefit</strong>: engaging experience for scouts and families; easy to update.</li>
-    </ul>
-    <h3>2. High-Impact Brand Visuals</h3>
-    <p><img src="images/hero_screenshot.png" alt="Hero Section Screenshot">
-        <strong>Files:</strong> <code>Hero.jsx</code>, <code>Navbar.jsx</code>, <code>index.css</code>
-    </p>
-    <ul>
-        <li><strong>Animation Engine</strong>: Built with <strong>GSAP (GreenSock Animation Platform)</strong> for
-            cinema-quality entrance animations and smooth transitions.</li>
-        <li><strong>Responsive Design</strong>: Flawless experience across mobile, tablet, and desktop devices.</li>
-        <li><strong>Benefit</strong>: Immediate &quot;Wow&quot; factor that establishes professional credibility.</li>
-    </ul>
-    <h3>3. Integrated Engagement Tools</h3>
-    <p><img src="images/contact_screenshot.png" alt="Contact Form Screenshot">
-        <strong>Files:</strong> <code>Contact.jsx</code>, <code>Fundraising.jsx</code>, <code>Sponsorships.jsx</code>
-    </p>
-    <ul>
-        <li><strong>Direct Communication</strong>: Custom-built contact forms for general inquiries and recruitment.
-        </li>
-        <li><strong>Revenue Focus</strong>: dedicated sections for fundraising and sponsorships to support program
-            viability.</li>
-        <li><strong>Benefit</strong>: Converts passive visitors into active supporters and leads.</li>
-    </ul>
-    <hr>
-    <h2>🛠 Technical Architecture &quot;Under the Hood&quot;</h2>
-    <p>We have utilized a cutting-edge <strong>&quot;Elite Tier&quot; Tech Stack</strong> to ensure longevity and
-        performance:</p>
-    <table>
-        <thead>
-            <tr>
-                <th align="left">Component</th>
-                <th align="left">Technology</th>
-                <th align="left">Why it matters</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td align="left"><strong>Core Framework</strong></td>
-                <td align="left"><strong>React 19</strong></td>
-                <td align="left">The latest standard for interactive web UI. Future-proof and robust.</td>
-            </tr>
-            <tr>
-                <td align="left"><strong>Build Engine</strong></td>
-                <td align="left"><strong>Vite</strong></td>
-                <td align="left">Lightning-fast load times. Stakeholders won&#39;t wait for pages to load.</td>
-            </tr>
-            <tr>
-                <td align="left"><strong>Styling</strong></td>
-                <td align="left"><strong>Tailwind CSS v4</strong></td>
-                <td align="left">A bespoke design system (not a generic template) allowing for pixel-perfect branding.
-                </td>
-            </tr>
-            <tr>
-                <td align="left"><strong>Animations</strong></td>
-                <td align="left"><strong>GSAP</strong></td>
-                <td align="left">Industry-standard for high-end web motion capability.</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>🔮 Future Roadmap (Phase 2 Opportunities)</h2>
-    <ul>
-        <li><strong>Live Game Integration</strong>: Real-time score ticker.</li>
-        <li><strong>Alumni Portal</strong>: Database of past players and their college commitments.</li>
-        <li><strong>Merchandise Store</strong>: Integrated e-commerce for team gear.</li>
-    </ul>
-    <hr>
-    <blockquote>
-        <p>[!NOTE]
-            This platform is built to scale. As the organization grows, the codebase is ready to expand with it.</p>
-    </blockquote>
+<h2>Executive Summary</h2>
+<p>This document presents the newly developed digital platform for <strong>Cyfair New Mexico</strong>. Moving beyond a standard website, this application is a high-performance, interactive tool designed to elevate branding, streamline player showcasing, and drive organizational growth through effective fundraising and communication channels.</p>
+<hr>
+<h2>🚀 Key Features &amp; Deliverables</h2>
+<h3>1. Dynamic Roster Management</h3>
+<p><img src="images/roster_screenshot.png" alt="Dynamic Roster Screenshot">
+<strong>Files:</strong> <code>Roster.jsx</code>, <code>PlayerModal.jsx</code></p>
+<ul>
+<li><strong>Interactive Player Cards</strong>: A modern carousel interface replacing static lists.</li>
+<li><strong>Deep-Dive Profiles</strong>: Modal views provide detailed statistics and bios without cluttering the main view.</li>
+<li><strong>Benefit</strong>: engaging experience for scouts and families; easy to update.<blockquote>
+<p><a href="https://cyfair-nm.vercel.app#roster">🔗 <strong>Live Demo: View Roster</strong></a></p>
+</blockquote>
+</li>
+</ul>
+<h3>2. High-Impact Brand Visuals</h3>
+<p><img src="images/hero_screenshot.png" alt="Hero Section Screenshot">
+<strong>Files:</strong> <code>Hero.jsx</code>, <code>Navbar.jsx</code>, <code>index.css</code></p>
+<ul>
+<li><strong>Animation Engine</strong>: Built with <strong>GSAP (GreenSock Animation Platform)</strong> for cinema-quality entrance animations and smooth transitions.</li>
+<li><strong>Responsive Design</strong>: Flawless experience across mobile, tablet, and desktop devices.</li>
+<li><strong>Benefit</strong>: Immediate &quot;Wow&quot; factor that establishes professional credibility.<blockquote>
+<p><a href="https://cyfair-nm.vercel.app">🔗 <strong>Live Demo: Main Page</strong></a></p>
+</blockquote>
+</li>
+</ul>
+<h3>3. Integrated Engagement Tools</h3>
+<p><img src="images/contact_screenshot.png" alt="Contact Form Screenshot">
+<strong>Files:</strong> <code>Contact.jsx</code>, <code>Fundraising.jsx</code>, <code>Sponsorships.jsx</code></p>
+<ul>
+<li><strong>Direct Communication</strong>: Custom-built contact forms for general inquiries and recruitment.</li>
+<li><strong>Revenue Focus</strong>: dedicated sections for fundraising and sponsorships to support program viability.</li>
+<li><strong>Benefit</strong>: Converts passive visitors into active supporters and leads.<blockquote>
+<p><a href="https://cyfair-nm.vercel.app#contact">🔗 <strong>Live Demo: Contact Support</strong></a></p>
+</blockquote>
+</li>
+</ul>
+<hr>
+<h2>🛠 Technical Architecture &quot;Under the Hood&quot;</h2>
+<p>We have utilized a cutting-edge <strong>&quot;Elite Tier&quot; Tech Stack</strong> to ensure longevity and performance:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Component</th>
+<th align="left">Technology</th>
+<th align="left">Why it matters</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Core Framework</strong></td>
+<td align="left"><strong>React 19</strong></td>
+<td align="left">The latest standard for interactive web UI. Future-proof and robust.</td>
+</tr>
+<tr>
+<td align="left"><strong>Build Engine</strong></td>
+<td align="left"><strong>Vite</strong></td>
+<td align="left">Lightning-fast load times. Stakeholders won&#39;t wait for pages to load.</td>
+</tr>
+<tr>
+<td align="left"><strong>Styling</strong></td>
+<td align="left"><strong>Tailwind CSS v4</strong></td>
+<td align="left">A bespoke design system (not a generic template) allowing for pixel-perfect branding.</td>
+</tr>
+<tr>
+<td align="left"><strong>Animations</strong></td>
+<td align="left"><strong>GSAP</strong></td>
+<td align="left">Industry-standard for high-end web motion capability.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>🔮 Future Roadmap (Phase 2 Opportunities)</h2>
+<ul>
+<li><strong>Live Game Integration</strong>: Real-time score ticker.</li>
+<li><strong>Alumni Portal</strong>: Database of past players and their college commitments.</li>
+<li><strong>Merchandise Store</strong>: Integrated e-commerce for team gear.</li>
+</ul>
+<hr>
+<blockquote>
+<p>[!NOTE]
+This platform is built to scale. As the organization grows, the codebase is ready to expand with it.</p>
+</blockquote>
 
 </body>
-
 </html>
