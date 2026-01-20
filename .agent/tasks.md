@@ -39,15 +39,16 @@
 - [x] **Asset Cleanup**
     - [x] Renamed `drink1-8.webp` → `player1-8.webp`.
 
-## Phase 3: Forms & Functionality 📋 (Up Next)
+## Phase 3: Forms & Functionality ✅ (Completed)
 *Objective: Allow users to interact with the organization.*
 
-- [ ] **Join / Recruitment Form (`Contact.jsx`)**
-    - [ ] Create a detailed form (Name, Age, Current School, Height, Position, Parent Contact).
-    - [ ] Add form validation.
-- [ ] **Navigation Updates**
+- [x] **Join / Recruitment Form (`Contact.jsx`)**
+    - [x] Created a detailed form (Name, Age, Current School, Height, Position, Parent Contact).
+    - [x] Added comprehensive form validation (required fields, email/phone formats).
+    - [x] Implemented loading states and success feedback.
+- [x] **Navigation Updates**
     - [x] Connect "Sponsor Us" link.
-    - [ ] Link "Join Us" buttons to the form.
+    - [x] Linked "Join Us" buttons in Hero and Navbar to the form.
 
 ## Phase 4: Visual Polish & Performance 🎨 (Planned)
 - [ ] **Animations**
