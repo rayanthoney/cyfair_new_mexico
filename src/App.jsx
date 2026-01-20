@@ -11,7 +11,22 @@ import Contact from "./components/Contact.jsx";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
+import Lenis from "lenis";
+import { useEffect } from "react";
+
 const App = () => {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    lenis.on("scroll", ScrollTrigger.update);
+
+    gsap.ticker.add((time) => {
+      lenis.raf(time * 1000);
+    });
+
+    gsap.ticker.lagSmoothing(0);
+  }, []);
+
   return (
     <main>
       <Navbar />

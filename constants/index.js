@@ -283,7 +283,7 @@ const legacyRosterList = [
   {
     id: 1,
     name: "Aaliyah Chavez",
-    image: "/images/webp/drink1.webp",
+    image: "/images/webp/player1.webp",
     title: "Class of 2025 | Point Guard",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus. ",
@@ -291,7 +291,7 @@ const legacyRosterList = [
   {
     id: 2,
     name: "Aniya Foy",
-    image: "/images/webp/drink2.webp",
+    image: "/images/webp/player2.webp",
     title: "Class of 2025 | Shooting Guard",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -299,7 +299,7 @@ const legacyRosterList = [
   {
     id: 3,
     name: "Isabella Hines",
-    image: "/images/webp/drink3.webp",
+    image: "/images/webp/player3.webp",
     title: "Class of 2025 | Small Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -307,7 +307,7 @@ const legacyRosterList = [
   {
     id: 4,
     name: "Ayla McDowell",
-    image: "/images/webp/drink4.webp",
+    image: "/images/webp/player4.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -315,7 +315,7 @@ const legacyRosterList = [
   {
     id: 5,
     name: "Niyah Waters",
-    image: "/images/webp/drink5.webp",
+    image: "/images/webp/player5.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -323,7 +323,7 @@ const legacyRosterList = [
   {
     id: 6,
     name: "Sania Richardson",
-    image: "/images/webp/drink6.webp",
+    image: "/images/webp/player6.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -331,7 +331,7 @@ const legacyRosterList = [
   {
     id: 7,
     name: "Imani Daniel",
-    image: "/images/webp/drink7.webp",
+    image: "/images/webp/player7.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -339,7 +339,7 @@ const legacyRosterList = [
   {
     id: 8,
     name: "Eliece Perry ",
-    image: "/images/webp/drink8.webp",
+    image: "/images/webp/player8.webp",
     title: "Class of 2025 | Power Forward",
     description:
       "Maecenas leo nisi, imperdiet et mauris in, mollis sodales mi. In non convallis magna. Ut pretium purus convallis, semper libero id, venenatis augue. Nunc ut vehicula tellus.",
@@ -355,7 +355,7 @@ const rosterByDivision = {
       jerseyNumber: 23,
       position: "Point Guard",
       gradYear: 2025,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Dynamic point guard with exceptional court vision and leadership skills. Known for her ability to control the tempo and create scoring opportunities for teammates."
     },
     {
@@ -364,7 +364,7 @@ const rosterByDivision = {
       jerseyNumber: 15,
       position: "Shooting Guard",
       gradYear: 2025,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Sharpshooting guard with a deadly three-point shot. Her offensive versatility and defensive intensity make her a complete two-way player."
     },
     {
@@ -373,7 +373,7 @@ const rosterByDivision = {
       jerseyNumber: 32,
       position: "Small Forward",
       gradYear: 2025,
-      image: "/images/webp/drink3.webp",
+      image: "/images/webp/player3.webp",
       bio: "Athletic wing player who excels in transition and can score from all three levels. A lockdown defender with great instincts."
     },
     {
@@ -382,7 +382,7 @@ const rosterByDivision = {
       jerseyNumber: 44,
       position: "Power Forward",
       gradYear: 2025,
-      image: "/images/webp/drink4.webp",
+      image: "/images/webp/player4.webp",
       bio: "Physical presence in the paint with a soft touch around the rim. Dominates the boards and protects the rim with her shot-blocking ability."
     },
     {
@@ -391,7 +391,7 @@ const rosterByDivision = {
       jerseyNumber: 8,
       position: "Center",
       gradYear: 2025,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Dominant center with exceptional footwork and post moves. Her defensive presence and rebounding prowess anchor the team's interior game."
     },
     {
@@ -400,7 +400,7 @@ const rosterByDivision = {
       jerseyNumber: 17,
       position: "Shooting Guard",
       gradYear: 2025,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Versatile guard who can score from anywhere on the court. Her clutch gene and competitive fire make her a go-to player in critical moments."
     },
     {
@@ -409,7 +409,7 @@ const rosterByDivision = {
       jerseyNumber: 25,
       position: "Small Forward",
       gradYear: 2025,
-      image: "/images/webp/drink7.webp",
+      image: "/images/webp/player7.webp",
       bio: "Athletic wing with exceptional defensive skills. Her ability to guard multiple positions and create turnovers energizes the team."
     },
     {
@@ -418,7 +418,7 @@ const rosterByDivision = {
       jerseyNumber: 4,
       position: "Point Guard",
       gradYear: 2025,
-      image: "/images/webp/drink8.webp",
+      image: "/images/webp/player8.webp",
       bio: "Floor general with exceptional decision-making and court awareness. Her leadership and poise under pressure guide the team to victory."
     },
     {
@@ -427,7 +427,7 @@ const rosterByDivision = {
       jerseyNumber: 13,
       position: "Power Forward",
       gradYear: 2025,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Strong and physical forward who dominates the paint. Her relentless work ethic and toughness set the tone for the entire team."
     },
     {
@@ -436,7 +436,7 @@ const rosterByDivision = {
       jerseyNumber: 20,
       position: "Shooting Guard",
       gradYear: 2025,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Sharpshooter with unlimited range and quick release. Her ability to stretch the defense creates opportunities for her teammates."
     },
   ],
@@ -447,7 +447,7 @@ const rosterByDivision = {
       jerseyNumber: 10,
       position: "Point Guard",
       gradYear: 2026,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Quick and crafty point guard with excellent ball-handling skills. Her ability to penetrate and dish makes her a constant threat on offense."
     },
     {
@@ -456,7 +456,7 @@ const rosterByDivision = {
       jerseyNumber: 21,
       position: "Shooting Guard",
       gradYear: 2026,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Explosive scorer who can heat up in a hurry. Her athleticism and competitive spirit energize the entire team."
     },
     {
@@ -465,7 +465,7 @@ const rosterByDivision = {
       jerseyNumber: 5,
       position: "Small Forward",
       gradYear: 2026,
-      image: "/images/webp/drink7.webp",
+      image: "/images/webp/player7.webp",
       bio: "Versatile forward with a high basketball IQ. Can play multiple positions and always makes the right play."
     },
     {
@@ -474,7 +474,7 @@ const rosterByDivision = {
       jerseyNumber: 33,
       position: "Power Forward",
       gradYear: 2026,
-      image: "/images/webp/drink8.webp",
+      image: "/images/webp/player8.webp",
       bio: "Strong and aggressive post player who never backs down from a challenge. Her rebounding and interior defense anchor the team."
     },
     {
@@ -483,7 +483,7 @@ const rosterByDivision = {
       jerseyNumber: 2,
       position: "Center",
       gradYear: 2026,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Skilled big with soft hands and great court vision. Her ability to pass out of the post makes her a dual threat in the paint."
     },
     {
@@ -492,7 +492,7 @@ const rosterByDivision = {
       jerseyNumber: 9,
       position: "Point Guard",
       gradYear: 2026,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Quick and elusive guard with exceptional speed. Her ability to push the pace and create fast-break opportunities is unmatched."
     },
     {
@@ -501,7 +501,7 @@ const rosterByDivision = {
       jerseyNumber: 16,
       position: "Small Forward",
       gradYear: 2026,
-      image: "/images/webp/drink3.webp",
+      image: "/images/webp/player3.webp",
       bio: "Two-way player who excels on both ends of the floor. Her hustle plays and energy are infectious to her teammates."
     },
     {
@@ -510,7 +510,7 @@ const rosterByDivision = {
       jerseyNumber: 27,
       position: "Shooting Guard",
       gradYear: 2026,
-      image: "/images/webp/drink4.webp",
+      image: "/images/webp/player4.webp",
       bio: "Crafty scorer with a diverse offensive arsenal. Her ability to create her own shot makes her a constant scoring threat."
     },
     {
@@ -519,7 +519,7 @@ const rosterByDivision = {
       jerseyNumber: 6,
       position: "Power Forward",
       gradYear: 2026,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Athletic forward with great timing and instincts. Her shot-blocking ability and defensive versatility are game-changers."
     },
     {
@@ -528,7 +528,7 @@ const rosterByDivision = {
       jerseyNumber: 18,
       position: "Point Guard",
       gradYear: 2026,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Smart playmaker with excellent basketball IQ. Her ability to read defenses and make the right play elevates her teammates."
     },
   ],
@@ -539,7 +539,7 @@ const rosterByDivision = {
       jerseyNumber: 12,
       position: "Point Guard",
       gradYear: 2027,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Rising star with incredible court awareness and passing ability. Her basketball IQ is well beyond her years."
     },
     {
@@ -548,7 +548,7 @@ const rosterByDivision = {
       jerseyNumber: 24,
       position: "Shooting Guard",
       gradYear: 2027,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Pure shooter with unlimited range. Her work ethic and dedication to improvement set the standard for the team."
     },
     {
@@ -557,7 +557,7 @@ const rosterByDivision = {
       jerseyNumber: 7,
       position: "Center",
       gradYear: 2027,
-      image: "/images/webp/drink3.webp",
+      image: "/images/webp/player3.webp",
       bio: "Dominant force in the paint with great footwork and touch. Her presence changes the game on both ends of the floor."
     },
     {
@@ -566,7 +566,7 @@ const rosterByDivision = {
       jerseyNumber: 14,
       position: "Small Forward",
       gradYear: 2027,
-      image: "/images/webp/drink4.webp",
+      image: "/images/webp/player4.webp",
       bio: "Athletic wing with a nose for the ball. Her hustle plays and energy are contagious to her teammates."
     },
     {
@@ -575,7 +575,7 @@ const rosterByDivision = {
       jerseyNumber: 1,
       position: "Point Guard",
       gradYear: 2027,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Fearless point guard with great vision and passing ability. Her leadership skills and composure are advanced for her age."
     },
     {
@@ -584,7 +584,7 @@ const rosterByDivision = {
       jerseyNumber: 19,
       position: "Shooting Guard",
       gradYear: 2027,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Smooth scorer with a beautiful shooting form. Her confidence and ability to knock down big shots make her a clutch performer."
     },
     {
@@ -593,7 +593,7 @@ const rosterByDivision = {
       jerseyNumber: 28,
       position: "Power Forward",
       gradYear: 2027,
-      image: "/images/webp/drink7.webp",
+      image: "/images/webp/player7.webp",
       bio: "Physical player who thrives in contact situations. Her toughness and rebounding prowess give her team second-chance opportunities."
     },
     {
@@ -602,7 +602,7 @@ const rosterByDivision = {
       jerseyNumber: 11,
       position: "Small Forward",
       gradYear: 2027,
-      image: "/images/webp/drink8.webp",
+      image: "/images/webp/player8.webp",
       bio: "Versatile wing who can impact the game in multiple ways. Her defensive intensity and offensive creativity make her invaluable."
     },
     {
@@ -611,7 +611,7 @@ const rosterByDivision = {
       jerseyNumber: 26,
       position: "Center",
       gradYear: 2027,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Skilled post player with excellent footwork and touch. Her ability to finish through contact and protect the rim is impressive."
     },
     {
@@ -620,7 +620,7 @@ const rosterByDivision = {
       jerseyNumber: 31,
       position: "Shooting Guard",
       gradYear: 2027,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Dynamic scorer with exceptional athleticism. Her ability to attack the basket and finish in traffic sets her apart."
     },
   ],
@@ -631,7 +631,7 @@ const rosterByDivision = {
       jerseyNumber: 3,
       position: "Point Guard",
       gradYear: 2028,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Young floor general with exceptional fundamentals. Her composure under pressure is remarkable for her age."
     },
     {
@@ -640,7 +640,7 @@ const rosterByDivision = {
       jerseyNumber: 11,
       position: "Shooting Guard",
       gradYear: 2028,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Smooth scorer with a beautiful shooting stroke. Her confidence and poise make her a go-to option in crucial moments."
     },
     {
@@ -649,7 +649,7 @@ const rosterByDivision = {
       jerseyNumber: 22,
       position: "Power Forward",
       gradYear: 2028,
-      image: "/images/webp/drink7.webp",
+      image: "/images/webp/player7.webp",
       bio: "Tough and physical player who thrives in contact. Her relentless motor and competitive fire inspire her teammates."
     },
     {
@@ -658,7 +658,7 @@ const rosterByDivision = {
       jerseyNumber: 30,
       position: "Center",
       gradYear: 2028,
-      image: "/images/webp/drink8.webp",
+      image: "/images/webp/player8.webp",
       bio: "Skilled big with soft hands and great timing. Her ability to finish around the basket and protect the rim is impressive."
     },
     {
@@ -667,7 +667,7 @@ const rosterByDivision = {
       jerseyNumber: 7,
       position: "Point Guard",
       gradYear: 2028,
-      image: "/images/webp/drink1.webp",
+      image: "/images/webp/player1.webp",
       bio: "Quick and shifty guard with excellent handles. Her ability to break down defenders and create plays is remarkable for her age."
     },
     {
@@ -676,7 +676,7 @@ const rosterByDivision = {
       jerseyNumber: 15,
       position: "Shooting Guard",
       gradYear: 2028,
-      image: "/images/webp/drink2.webp",
+      image: "/images/webp/player2.webp",
       bio: "Pure shooter with great mechanics and range. Her work ethic and dedication to improvement inspire her teammates."
     },
     {
@@ -685,7 +685,7 @@ const rosterByDivision = {
       jerseyNumber: 24,
       position: "Small Forward",
       gradYear: 2028,
-      image: "/images/webp/drink3.webp",
+      image: "/images/webp/player3.webp",
       bio: "Athletic wing with great instincts on both ends. Her ability to read the game and make plays is advanced beyond her years."
     },
     {
@@ -694,7 +694,7 @@ const rosterByDivision = {
       jerseyNumber: 5,
       position: "Power Forward",
       gradYear: 2028,
-      image: "/images/webp/drink4.webp",
+      image: "/images/webp/player4.webp",
       bio: "Strong and physical forward who dominates the boards. Her motor never stops and she brings energy every possession."
     },
     {
@@ -703,7 +703,7 @@ const rosterByDivision = {
       jerseyNumber: 12,
       position: "Center",
       gradYear: 2028,
-      image: "/images/webp/drink5.webp",
+      image: "/images/webp/player5.webp",
       bio: "Developing post player with great potential. Her size and willingness to learn make her a promising young talent."
     },
     {
@@ -712,7 +712,7 @@ const rosterByDivision = {
       jerseyNumber: 9,
       position: "Shooting Guard",
       gradYear: 2028,
-      image: "/images/webp/drink6.webp",
+      image: "/images/webp/player6.webp",
       bio: "Crafty scorer with a smooth offensive game. Her ability to create space and knock down shots makes her a scoring threat."
     },
   ],
