@@ -21,9 +21,9 @@ const Upcoming = () => {
       },
     });
 
-    parallaxTimeline
-      .from("#c-left-ball", { x: -100, y: 100 })
-      .from("#c-right-ball", { x: 100, y: 100 });
+    // parallaxTimeline
+    //   .from("#c-left-ball", { x: -100, y: 100 })
+    //   .from("#c-right-ball", { x: 100, y: 100 });
 
     // Animate rows on tab change
     gsap.fromTo(
@@ -51,7 +51,7 @@ const Upcoming = () => {
   return (
     <section id="upcoming" className="relative min-h-dvh w-full overflow-hidden py-20">
       {/* Parallax Balls */}
-      <img
+      {/* <img
         src="/images/webp/upcoming-left-ball.webp"
         id="c-left-ball"
         alt=""
@@ -62,7 +62,7 @@ const Upcoming = () => {
         id="c-right-ball"
         alt=""
         className="absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3 pointer-events-none"
-      />
+      /> */}
 
       <div className="container mx-auto relative z-10 max-w-6xl pt-20 2xl:px-0 px-5">
         {/* Section Title */}
@@ -76,8 +76,8 @@ const Upcoming = () => {
             <button
               onClick={() => handleTabChange("tournaments")}
               className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "tournaments"
-                  ? "bg-yellow text-black"
-                  : "text-white/70 hover:text-yellow hover:bg-white/5"
+                ? "bg-yellow text-black"
+                : "text-white/70 hover:text-yellow hover:bg-white/5"
                 }`}
               role="tab"
               aria-selected={activeTab === "tournaments"}
@@ -87,8 +87,8 @@ const Upcoming = () => {
             <button
               onClick={() => handleTabChange("training")}
               className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "training"
-                  ? "bg-yellow text-black"
-                  : "text-white/70 hover:text-yellow hover:bg-white/5"
+                ? "bg-yellow text-black"
+                : "text-white/70 hover:text-yellow hover:bg-white/5"
                 }`}
               role="tab"
               aria-selected={activeTab === "training"}
@@ -173,10 +173,10 @@ const Upcoming = () => {
                     {item.result ? (
                       <span
                         className={`text-lg md:text-xl font-anton tracking-wide ${item.result.includes("W")
-                            ? "text-green-400"
-                            : item.result.includes("L")
-                              ? "text-red-400"
-                              : "text-white"
+                          ? "text-green-400"
+                          : item.result.includes("L")
+                            ? "text-red-400"
+                            : "text-white"
                           }`}
                       >
                         {item.result}
