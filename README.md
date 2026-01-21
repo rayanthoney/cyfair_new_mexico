@@ -86,7 +86,7 @@ Version 1.0
 ## 🎯 Demo
 
 ### 🌐 Live Site
-Visit our official platform: **[cyfairelitenm.com](https://cyfairelitenm.com)**
+Visit our official platform: **[cyfairelitenm.com](https://cyfair-new-mexico.vercel.app/)**
 
 ### � Visual Experience
 The site features smooth **Lenis** scrolling and high-performance **GSAP** animations to reflect the dynamic nature of elite athletics.
