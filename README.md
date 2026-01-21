@@ -19,7 +19,7 @@ Version 1.0
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/rayanthoney/cyfair_new_mexico/actions)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-[**Live Demo**](https://cyfairelitenm.com) · [**Documentation**](https://github.com/rayanthoney/cyfair_new_mexico/wiki) · [**Report Bug**](https://github.com/rayanthoney/cyfair_new_mexico/issues) · [**Request Feature**](https://github.com/rayanthoney/cyfair_new_mexico/issues)
+[**Live Demo**](https://github.com/rayanthoney/cyfair_new_mexico) · [**Documentation**](https://github.com/rayanthoney/cyfair_new_mexico/wiki) · [**Report Bug**](https://github.com/rayanthoney/cyfair_new_mexico/issues) · [**Request Feature**](https://github.com/rayanthoney/cyfair_new_mexico/issues)
 
 <img src=".github/images/cyfairNM.webp" width="200" alt="CyFair Elite"/>
 
