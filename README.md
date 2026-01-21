@@ -140,7 +140,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/rayanthoney/cyfair_new_mexico.git
+   git clone https://github.com/rayanthoney/cyfair_new_mexico
    ```
 
 2. **Navigate to the project directory**
