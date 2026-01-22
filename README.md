@@ -48,8 +48,9 @@ Version 1.0
 ## 📖 About The Project
 
 <div align="center">
-  <img src="" width="150" style="display: inline-block"/>
-  <img src="" width="150" style="display: inline-block"/>
+  <img src=".github/images/about.png" width="150" style="display: inline-block"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src=".github/images/fundraiser.png" width="150" style="display: inline-block"/>
 </div>
 
 **CyFair Elite New Mexico** is a premier Nike Basketball affiliate organization dedicated to empowering female athletes through elite training and national competition. We provide a platform for girls aged 12–17 to develop their skills, mental toughness, and academic excellence.
