@@ -73,7 +73,7 @@ const Fundraising = () => {
                     <div className="inline-flex bg-black/50 border border-white/20 rounded-lg p-1">
                         <button
                             onClick={() => handleTabChange("events")}
-                            className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "events"
+                            className={`px-4 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "events"
                                 ? "bg-yellow text-black"
                                 : "text-white/70 hover:text-yellow hover:bg-white/5"
                                 }`}
@@ -84,7 +84,7 @@ const Fundraising = () => {
                         </button>
                         <button
                             onClick={() => handleTabChange("gallery")}
-                            className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "gallery"
+                            className={`px-4 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "gallery"
                                 ? "bg-yellow text-black"
                                 : "text-white/70 hover:text-yellow hover:bg-white/5"
                                 }`}

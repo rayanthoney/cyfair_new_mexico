@@ -58,7 +58,7 @@ const Upcoming = () => {
           <div className="inline-flex bg-black/50 border border-white/20 rounded-lg p-1">
             <button
               onClick={() => handleTabChange("tournaments")}
-              className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "tournaments"
+              className={`px-4 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "tournaments"
                 ? "bg-yellow text-black"
                 : "text-white/70 hover:text-yellow hover:bg-white/5"
                 }`}
@@ -69,7 +69,7 @@ const Upcoming = () => {
             </button>
             <button
               onClick={() => handleTabChange("training")}
-              className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "training"
+              className={`px-4 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "training"
                 ? "bg-yellow text-black"
                 : "text-white/70 hover:text-yellow hover:bg-white/5"
                 }`}

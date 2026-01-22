@@ -87,7 +87,7 @@ const Roster = () => {
           aria-label="Division Navigation"
           role="tablist"
         >
-          <div className="inline-flex bg-black/50 border border-white/20 rounded-lg p-1">
+          <div className="inline-flex flex-wrap justify-center gap-2 bg-black/50 border border-white/20 rounded-lg p-1">
             {divisions.map((division) => {
               const isActive = division === activeDivision;
               return (
@@ -95,7 +95,7 @@ const Roster = () => {
                   key={division}
                   onClick={() => handleDivisionChange(division)}
                   className={`
-                    px-6 md:px-8 py-2 md:py-3 text-lg md:text-xl font-anton uppercase
+                    px-4 md:px-8 py-2 md:py-3 text-lg md:text-xl font-anton uppercase
                     rounded-md transition-all duration-300
                     ${isActive
                       ? "bg-yellow text-black"
