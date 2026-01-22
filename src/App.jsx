@@ -9,10 +9,18 @@ import Roster from "./components/Roster.jsx";
 import Fundraising from "./components/Fundraising.jsx";
 import Contact from "./components/Contact.jsx";
 
-gsap.registerPlugin(ScrollTrigger, SplitText);
+// Safely import ThemeSwitcher only if it exists (development only)
+const themeSwitcherModules = import.meta.glob("./components/ThemeSwitcher.jsx");
+const ThemeSwitcherPromise = themeSwitcherModules["./components/ThemeSwitcher.jsx"];
 
+import { lazy, Suspense, useEffect } from "react";
 import Lenis from "lenis";
-import { useEffect } from "react";
+
+const ThemeSwitcher = ThemeSwitcherPromise
+  ? lazy(ThemeSwitcherPromise)
+  : () => null;
+
+gsap.registerPlugin(ScrollTrigger, SplitText);
 
 const App = () => {
   useEffect(() => {
@@ -37,6 +45,9 @@ const App = () => {
       <Fundraising />
       <Roster />
       <Contact />
+      <Suspense fallback={null}>
+        <ThemeSwitcher />
+      </Suspense>
     </main>
   );
 };

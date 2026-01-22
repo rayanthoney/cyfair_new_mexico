@@ -13,8 +13,37 @@
   src: url("/fonts/Anton-Regular.ttf") format("truetype");
 }
 
+
+@layer base {
+  :root {
+    --color-primary: #e7d393;
+    /* Default Yellow */
+  }
+
+  [data-theme="blue"] {
+    --color-primary: #3b82f6;
+    /* Blue Override */
+  }
+
+  [data-theme="turquoise"] {
+    --color-primary: #3ed9c9;
+    /* Turquoise Override */
+  }
+
+  [data-theme="mint"] {
+    --color-primary: #98FF98;
+    /* Mint Override */
+  }
+
+  [data-theme="rose"] {
+    --color-primary: #fe0d6f;
+    /* Rose Override */
+  }
+}
+
 @theme {
-  --color-yellow: #e7d393;
+  --color-yellow: var(--color-primary);
+  /* Mapped to variable */
   --color-white-100: #efefef;
   --font-sans: "Mona Sans", sans-serif;
   --font-modern-negra: "Modern Negra", sans-serif;
