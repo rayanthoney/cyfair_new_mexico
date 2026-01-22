@@ -51,6 +51,10 @@
     - [x] Linked "Join Us" buttons in Hero and Navbar to the form.
 
 ## Phase 4: Visual Polish & Performance 🎨 (Planned)
+- [x] **Dynamic Theming**
+    - [x] Implemented CSS variables and ThemeSwitcher.
+    - [x] Configured ThemeSwitcher as development-only.
+
 - [ ] **Animations**
     - [ ] Refine GSAP ScrollTriggers for new components.
 - [ ] **Responsiveness**
