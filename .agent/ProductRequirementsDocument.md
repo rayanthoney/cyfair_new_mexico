@@ -45,13 +45,16 @@ The application leverages **React 19**, **Vite**, **Tailwind CSS v4**, and **GSA
 - Clear Call-to-Actions (CTAs).
 
 ### 4.3 Roster / Player Profiles
-- Grid view of players.
-- **Data Points**: Name, Image, Class (e.g., 2025), Position (PG, SG, etc.), and a brief description/bio.
+- **Grid View**: Responsive grid with tabs for different divisions (17U, 16U, etc.).
+- **Player Cards**: Jersey number, photo, name, and position.
+- **Detailed Modal**: Click-to-expand modal with full bio, height, and additional stats.
 - **Purpose**: Scouting and recognition.
 
 ### 4.4 Schedule (Upcoming)
-- **Tournament List**: Dates, Location, Event Name, Results (e.g., "W 58-45").
-- **Training Schedule**: Practice times and locations (e.g., Hayes Middle School).
+- **Tabs**: Toggle between "Tournaments" and "Training" schedules.
+- **Tournament List**: Dates, Location, Event Name, Results (e.g., "W 58-45") with color-coded indicators.
+- **Training Schedule**: Practice times and locations.
+- **Parallax Effects**: Floating background elements for visual depth.
 
 ### 4.5 Fundraising & Community
 - List of active fundraisers (e.g., Car Wash, Food Sales).
@@ -66,6 +69,10 @@ The application leverages **React 19**, **Vite**, **Tailwind CSS v4**, and **GSA
 - **Location Info**: Address, Map integration (optional), Opening Hours.
 - **Contact Channels**: Phone, Email.
 - **Social Integration**: Direct links to social platforms.
+
+### 4.8 Development Tools
+- **Theme Switcher**: A development-only floating widget to toggle color themes (Yellow, Blue, Mint, Rose) for testing.
+- **Configuration**: Lazy-loaded and excluded from production builds via `.gitignore` and `import.meta.glob`.
 
 ## 5. Technical Requirements
 

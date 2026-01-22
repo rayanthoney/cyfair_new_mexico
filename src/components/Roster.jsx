@@ -64,7 +64,7 @@ const Roster = () => {
     <section
       id="roster"
       aria-labelledby="roster-heading"
-      className="relative w-full min-h-screen py-20 2xl:px-0 px-5 radial-gradient overflow-hidden"
+      className="relative w-full min-h-screen pt-32 pb-20 2xl:px-0 px-5 radial-gradient overflow-hidden"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">

@@ -43,7 +43,7 @@ const Fundraising = () => {
     };
 
     return (
-        <section id="fundraising" className="min-h-screen py-20 relative overflow-hidden">
+        <section id="fundraising" className="min-h-screen pt-32 pb-20 relative overflow-hidden">
             {/* Background Texture */}
             <div className="absolute inset-0 bg-[url('/images/webp/noise.webp')] opacity-20 pointer-events-none z-0" />
 
@@ -74,8 +74,8 @@ const Fundraising = () => {
                         <button
                             onClick={() => handleTabChange("events")}
                             className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "events"
-                                    ? "bg-yellow text-black"
-                                    : "text-white/70 hover:text-yellow hover:bg-white/5"
+                                ? "bg-yellow text-black"
+                                : "text-white/70 hover:text-yellow hover:bg-white/5"
                                 }`}
                             role="tab"
                             aria-selected={activeTab === "events"}
@@ -85,8 +85,8 @@ const Fundraising = () => {
                         <button
                             onClick={() => handleTabChange("gallery")}
                             className={`px-6 md:px-10 py-2 md:py-3 text-lg md:text-xl font-anton uppercase rounded-md transition-all duration-300 ${activeTab === "gallery"
-                                    ? "bg-yellow text-black"
-                                    : "text-white/70 hover:text-yellow hover:bg-white/5"
+                                ? "bg-yellow text-black"
+                                : "text-white/70 hover:text-yellow hover:bg-white/5"
                                 }`}
                             role="tab"
                             aria-selected={activeTab === "gallery"}

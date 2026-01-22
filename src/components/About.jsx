@@ -28,7 +28,7 @@ const About = () => {
 
     return (
         <div id="about" className="min-h-screen w-full">
-            <div className="container mx-auto px-5 py-24">
+            <div className="container mx-auto px-5 pt-32 pb-24">
                 <div className="mb-16 md:px-0 px-5">
                     <div className="content grid grid-cols-1 lg:grid-cols-12 gap-5">
                         <div className="md:col-span-8">

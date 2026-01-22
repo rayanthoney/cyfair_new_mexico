@@ -21,10 +21,6 @@ const Upcoming = () => {
       },
     });
 
-    // parallaxTimeline
-    //   .from("#c-left-ball", { x: -100, y: 100 })
-    //   .from("#c-right-ball", { x: 100, y: 100 });
-
     // Animate rows on tab change
     gsap.fromTo(
       ".schedule-row",
@@ -49,20 +45,7 @@ const Upcoming = () => {
   const upcomingIndex = currentList.findIndex((item) => !item.result);
 
   return (
-    <section id="upcoming" className="relative min-h-dvh w-full overflow-hidden py-20">
-      {/* Parallax Balls */}
-      {/* <img
-        src="/images/webp/upcoming-left-ball.webp"
-        id="c-left-ball"
-        alt=""
-        className="absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3 pointer-events-none"
-      />
-      <img
-        src="/images/webp/upcoming-right-ball.webp"
-        id="c-right-ball"
-        alt=""
-        className="absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3 pointer-events-none"
-      /> */}
+    <section id="upcoming" className="relative min-h-dvh w-full overflow-hidden pt-32 pb-20">
 
       <div className="container mx-auto relative z-10 max-w-6xl pt-20 2xl:px-0 px-5">
         {/* Section Title */}
