@@ -100,7 +100,7 @@ const Contact = () => {
 
     if (!formData.phone.trim()) {
       newErrors.phone = "Phone is required";
-    } else if (!/^[\d\s\-\(\)]+$/.test(formData.phone) || formData.phone.replace(/\D/g, "").length < 10) {
+    } else if (!/^[\d\s\-()]+$/.test(formData.phone) || formData.phone.replace(/\D/g, "").length < 10) {
       newErrors.phone = "Enter a valid phone number";
     }
 
@@ -274,10 +274,11 @@ const Contact = () => {
               >
                 {/* Player Name */}
                 <div className="space-y-1 text-left">
-                  <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                  <label htmlFor="playerName" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                     Player Name <span className="text-red-500">*</span>
                   </label>
                   <input
+                    id="playerName"
                     type="text"
                     name="playerName"
                     value={formData.playerName}
@@ -291,10 +292,11 @@ const Contact = () => {
                 {/* Class / Position / Height */}
                 <div className="grid grid-cols-3 gap-4">
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="classYear" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Class <span className="text-red-500">*</span>
                     </label>
                     <input
+                      id="classYear"
                       type="text"
                       name="classYear"
                       value={formData.classYear}
@@ -305,10 +307,11 @@ const Contact = () => {
                     {errors.classYear && <p className="text-red-500 text-xs mt-1">{errors.classYear}</p>}
                   </div>
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="position" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Position <span className="text-red-500">*</span>
                     </label>
                     <input
+                      id="position"
                       type="text"
                       name="position"
                       value={formData.position}
@@ -319,10 +322,11 @@ const Contact = () => {
                     {errors.position && <p className="text-red-500 text-xs mt-1">{errors.position}</p>}
                   </div>
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="height" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Height <span className="text-red-500">*</span>
                     </label>
                     <input
+                      id="height"
                       type="text"
                       name="height"
                       value={formData.height}
@@ -337,10 +341,11 @@ const Contact = () => {
                 {/* School / Instagram */}
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="school" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Current School
                     </label>
                     <input
+                      id="school"
                       type="text"
                       name="school"
                       value={formData.school}
@@ -350,10 +355,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="instagram" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Instagram
                     </label>
                     <input
+                      id="instagram"
                       type="text"
                       name="instagram"
                       value={formData.instagram}
@@ -367,10 +373,11 @@ const Contact = () => {
                 {/* Email / Phone */}
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="email" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Contact Email <span className="text-red-500">*</span>
                     </label>
                     <input
+                      id="email"
                       type="email"
                       name="email"
                       value={formData.email}
@@ -381,10 +388,11 @@ const Contact = () => {
                     {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
                   </div>
                   <div className="space-y-1 text-left">
-                    <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                    <label htmlFor="phone" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                       Phone <span className="text-red-500">*</span>
                     </label>
                     <input
+                      id="phone"
                       type="tel"
                       name="phone"
                       value={formData.phone}
@@ -398,10 +406,11 @@ const Contact = () => {
 
                 {/* Message */}
                 <div className="space-y-1 text-left">
-                  <label className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
+                  <label htmlFor="message" className="text-xs font-bold uppercase tracking-widest text-yellow ml-1">
                     Highlights / Message
                   </label>
                   <textarea
+                    id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}

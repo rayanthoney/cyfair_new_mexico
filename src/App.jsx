@@ -9,16 +9,9 @@ import Roster from "./components/Roster.jsx";
 import Fundraising from "./components/Fundraising.jsx";
 import Contact from "./components/Contact.jsx";
 
-// Safely import ThemeSwitcher only if it exists (development only)
-const themeSwitcherModules = import.meta.glob("./components/ThemeSwitcher.jsx");
-const ThemeSwitcherPromise = themeSwitcherModules["./components/ThemeSwitcher.jsx"];
-
-import { lazy, Suspense, useEffect } from "react";
+import ThemeSwitcher from "./components/ThemeSwitcher.jsx";
+import { useEffect } from "react";
 import Lenis from "lenis";
-
-const ThemeSwitcher = ThemeSwitcherPromise
-  ? lazy(ThemeSwitcherPromise)
-  : () => null;
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -45,9 +38,7 @@ const App = () => {
       <Fundraising />
       <Roster />
       <Contact />
-      <Suspense fallback={null}>
-        <ThemeSwitcher />
-      </Suspense>
+      <ThemeSwitcher />
     </main>
   );
 };

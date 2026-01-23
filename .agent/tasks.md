@@ -59,5 +59,5 @@
     - [ ] Refine GSAP ScrollTriggers for new components.
 - [x] **Responsiveness**
     - [x] QA all sections on Mobile vs Desktop.
-- [/] **Accessibility Audit**
-    - [/] ARIA labels, keyboard navigation, color contrast.
+- [x] **Accessibility Audit**
+    - [x] ARIA labels, keyboard navigation, color contrast.

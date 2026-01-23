@@ -1,17 +1,46 @@
 "use client";
 
-import { useState } from "react";
-import { rosterByDivision } from "../../constants/index.js";
+import { useState, useEffect } from "react";
+import { rosterByDivision as staticRoster } from "../../constants/index.js";
+import { fetchPlayers } from "../sanity/queries.js";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import PlayerModal from "./PlayerModal.jsx";
 
 const Roster = () => {
+  const [rosterByDivision, setRosterByDivision] = useState(staticRoster);
   const [activeDivision, setActiveDivision] = useState("17U");
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 
+  useEffect(() => {
+    console.log("🚀 Roster useEffect running - fetching from Sanity...");
+    fetchPlayers()
+      .then((sanityData) => {
+        console.log("✅ Sanity players fetched:", sanityData);
+        console.log("📊 Divisions from Sanity:", Object.keys(sanityData));
+        // Merge Sanity data with static data
+        const merged = { ...staticRoster };
+        for (const division of Object.keys(sanityData)) {
+          if (merged[division]) {
+            // Add Sanity players to existing division
+            merged[division] = [...merged[division], ...sanityData[division]];
+            console.log(`➕ Added ${sanityData[division].length} Sanity players to ${division}`);
+          } else {
+            // New division from Sanity
+            merged[division] = sanityData[division];
+            console.log(`🆕 Created new division ${division} with ${sanityData[division].length} players`);
+          }
+        }
+        console.log("📦 Final merged roster:", merged);
+        setRosterByDivision(merged);
+      })
+      .catch((err) => {
+        console.error("❌ Failed to fetch from Sanity:", err);
+      });
+  }, []);
+
   const divisions = Object.keys(rosterByDivision);
-  const currentPlayers = rosterByDivision[activeDivision];
+  const currentPlayers = rosterByDivision[activeDivision] || [];
 
   useGSAP(() => {
     // Animate section title

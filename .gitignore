@@ -29,5 +29,3 @@ GEMINI.md
 # Documentation
 docs/
 
-# Development only
-src/components/ThemeSwitcher.jsx

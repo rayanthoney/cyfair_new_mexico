@@ -159,6 +159,7 @@ const Fundraising = () => {
                                         <button
                                             onClick={() => event.flyerImage && setSelectedFlyer(event.flyerImage)}
                                             className="text-sm font-anton uppercase tracking-wide text-white border border-white/30 px-4 py-2 rounded hover:bg-yellow hover:text-black hover:border-yellow transition-all"
+                                            aria-label={`${event.action} for ${event.title}`}
                                         >
                                             {event.action}
                                         </button>
@@ -176,7 +177,7 @@ const Fundraising = () => {
                             {communityImages.map((img, index) => (
                                 <div
                                     key={index}
-                                    className={`gallery-item relative overflow-hidden rounded-xl aspect-[4/3] group cursor-pointer ${index === 0 ? "md:col-span-2 md:row-span-2" : ""
+                                    className={`gallery-item relative overflow-hidden rounded-xl aspect-[4/3] group ${index === 0 ? "md:col-span-2 md:row-span-2" : ""
                                         }`}
                                 >
                                     <img

@@ -1,13 +1,13 @@
 import { createClient } from "@sanity/client";
-import imageUrlBuilder from "@sanity/image-url";
+import { createImageUrlBuilder } from "@sanity/image-url";
 
 export const client = createClient({
     projectId: "koxreack",
     dataset: "production",
     apiVersion: "2024-01-01",
-    useCdn: true, // true for fast production, false for realtime development
+    useCdn: false, // true for fast production, false for realtime development
 });
 
-const builder = imageUrlBuilder(client);
+const builder = createImageUrlBuilder(client);
 
 export const urlFor = (source) => builder.image(source);

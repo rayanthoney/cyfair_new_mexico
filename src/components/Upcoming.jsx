@@ -1,18 +1,42 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { tournamentList, trainingList } from "../../constants/index.js";
+import { tournamentList as staticTournaments, trainingList as staticTraining } from "../../constants/index.js";
+import { fetchScheduleEvents } from "../sanity/queries.js";
 
 const Upcoming = () => {
   const [activeTab, setActiveTab] = useState("tournaments");
+  const [tournamentList, setTournamentList] = useState(staticTournaments);
+  const [trainingList, setTrainingList] = useState(staticTraining);
+
+  useEffect(() => {
+    Promise.all([
+      fetchScheduleEvents("tournament"),
+      fetchScheduleEvents("training"),
+    ])
+      .then(([sanityTournaments, sanityTraining]) => {
+        console.log("Sanity tournaments:", sanityTournaments);
+        console.log("Sanity training:", sanityTraining);
+        // Merge Sanity data with static data
+        if (sanityTournaments.length > 0) {
+          setTournamentList([...staticTournaments, ...sanityTournaments]);
+        }
+        if (sanityTraining.length > 0) {
+          setTrainingList([...staticTraining, ...sanityTraining]);
+        }
+      })
+      .catch((err) => {
+        console.warn("Failed to fetch from Sanity, using static data:", err);
+      });
+  }, []);
 
   const currentList = activeTab === "tournaments" ? tournamentList : trainingList;
 
   useGSAP(() => {
     // Parallax animations
-    const parallaxTimeline = gsap.timeline({
+    const _parallaxTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#upcoming",
         start: "top 30%",
@@ -64,6 +88,7 @@ const Upcoming = () => {
                 }`}
               role="tab"
               aria-selected={activeTab === "tournaments"}
+              aria-controls="schedule-content"
             >
               Tournaments
             </button>
@@ -75,6 +100,7 @@ const Upcoming = () => {
                 }`}
               role="tab"
               aria-selected={activeTab === "training"}
+              aria-controls="schedule-content"
             >
               Training
             </button>
@@ -82,7 +108,7 @@ const Upcoming = () => {
         </nav>
 
         {/* Table Container */}
-        <div className="bg-black/30 border border-white/10 rounded-xl overflow-hidden">
+        <div id="schedule-content" role="tabpanel" className="bg-black/30 border border-white/10 rounded-xl overflow-hidden">
           {/* Table Header */}
           <div className="hidden md:grid grid-cols-12 gap-4 px-6 py-4 bg-white/5 border-b border-white/10">
             <div className="col-span-2 text-yellow font-anton text-sm uppercase tracking-wider">

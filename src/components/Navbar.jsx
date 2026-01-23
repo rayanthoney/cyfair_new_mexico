@@ -56,7 +56,7 @@ const Navbar = () => {
     return (
         <nav className="fixed w-full z-50 transition-colors duration-300">
             <div className="container mx-auto px-5 py-4 flex justify-between items-center">
-                <a href="#home" className="flex items-center gap-2 z-[60] relative">
+                <a href="#home" aria-label="Go to Home" className="flex items-center gap-2 z-[60] relative">
                     <img src='/images/webp/logo (2).webp' alt='logo' className="w-20 h-20 object-contain" />
                     <p className="font-anton text-2xl tracking-wider uppercase">CyFair Elite NM</p>
                 </a>
